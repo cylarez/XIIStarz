@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "FBConnect.h"
+#import "LocationGetter.h"
 
 #define _JSON_URL @"http://mobile.12starz.com/projects.php"
 
@@ -27,6 +28,8 @@
 	NSManagedObjectContext *managedObjectContext;	    
 	NSPersistentStoreCoordinator *persistentStoreCoordinator;
     
+    CLLocation *lastKnownLocation;
+    
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
@@ -39,6 +42,8 @@
 @property (nonatomic, retain, readonly) NSManagedObjectModel *managedObjectModel;
 @property (nonatomic, retain, readonly) NSManagedObjectContext *managedObjectContext;
 @property (nonatomic, retain, readonly) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+
+@property (nonatomic, retain) CLLocation *lastKnownLocation;
 
 - (NSString *)applicationDocumentsDirectory;
 

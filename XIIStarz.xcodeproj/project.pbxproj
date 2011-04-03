@@ -19,7 +19,6 @@
 		720F27D7126CA2F300434121 /* DetailProjectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 720F27D5126CA2F300434121 /* DetailProjectViewController.xib */; };
 		721330DF126B908A00BFA275 /* ProjectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 721330DD126B908A00BFA275 /* ProjectsViewController.m */; };
 		721330E0126B908A00BFA275 /* ProjectsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 721330DE126B908A00BFA275 /* ProjectsViewController.xib */; };
-		72349DB712592A8D00DE6301 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72349DB512592A8D00DE6301 /* MapViewController.m */; };
 		72349DB812592A8D00DE6301 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72349DB612592A8D00DE6301 /* MapViewController.xib */; };
 		723E0B7D13236FF50069364B /* FBConnect.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 723E0B7C13236FF50069364B /* FBConnect.bundle */; };
 		723E0B80132370050069364B /* FBLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 723E0B7F132370050069364B /* FBLoginButton.m */; };
@@ -43,7 +42,6 @@
 		7271CD42131CBEC800DFBB51 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7271CD41131CBEC800DFBB51 /* libiconv.dylib */; };
 		727C93561347AA4700BC5FCB /* 44-shoebox.png in Resources */ = {isa = PBXBuildFile; fileRef = 727C93551347AA4700BC5FCB /* 44-shoebox.png */; };
 		727C935E1347B47E00BC5FCB /* History.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 727C935C1347B47E00BC5FCB /* History.xcdatamodeld */; };
-		727C93611347BB3D00BC5FCB /* Entry.m in Sources */ = {isa = PBXBuildFile; fileRef = 727C93601347BB3D00BC5FCB /* Entry.m */; };
 		727C93631347C21F00BC5FCB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 727C93621347C21F00BC5FCB /* CoreData.framework */; };
 		727EB0F0125948CB0051ADEB /* DisplayMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 727EB0EF125948CB0051ADEB /* DisplayMap.m */; };
 		72866349131DC1FA006DD357 /* QRCodeUrlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72866347131DC1FA006DD357 /* QRCodeUrlViewController.m */; };
@@ -73,6 +71,10 @@
 		72BC04CA1259247F0064B930 /* FindUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BC04C91259247F0064B930 /* FindUsViewController.m */; };
 		72BC04ED125925CE0064B930 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BC04EC125925CE0064B930 /* CoreLocation.framework */; };
 		72BC04F1125925D70064B930 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BC04F0125925D70064B930 /* MapKit.framework */; };
+		72DAB64913481EF1002583D6 /* LocationGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DAB64813481EF1002583D6 /* LocationGetter.m */; };
+		72DAB64F13482B08002583D6 /* Entry.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DAB64E13482B08002583D6 /* Entry.m */; };
+		72DAB65313482E5C002583D6 /* DetailHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DAB65113482E5B002583D6 /* DetailHistoryViewController.m */; };
+		72DAB65413482E5C002583D6 /* DetailHistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72DAB65213482E5B002583D6 /* DetailHistoryViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,8 +96,6 @@
 		721330DC126B908A00BFA275 /* ProjectsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectsViewController.h; sourceTree = "<group>"; };
 		721330DD126B908A00BFA275 /* ProjectsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectsViewController.m; sourceTree = "<group>"; };
 		721330DE126B908A00BFA275 /* ProjectsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ProjectsViewController.xib; path = Classes/ProjectsViewController.xib; sourceTree = "<group>"; };
-		72349DB412592A8D00DE6301 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
-		72349DB512592A8D00DE6301 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		72349DB612592A8D00DE6301 /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MapViewController.xib; path = Classes/MapViewController.xib; sourceTree = "<group>"; };
 		723E0B7C13236FF50069364B /* FBConnect.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FBConnect.bundle; path = ../Facebook/sample/FBConnect.bundle; sourceTree = SOURCE_ROOT; };
 		723E0B7E132370050069364B /* FBLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBLoginButton.h; path = ../Facebook/sample/DemoApp/Classes/FBLoginButton.h; sourceTree = SOURCE_ROOT; };
@@ -140,8 +140,6 @@
 		7271CD41131CBEC800DFBB51 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 		727C93551347AA4700BC5FCB /* 44-shoebox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "44-shoebox.png"; sourceTree = "<group>"; };
 		727C935D1347B47E00BC5FCB /* History.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = History.xcdatamodel; sourceTree = "<group>"; };
-		727C935F1347BB3D00BC5FCB /* Entry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entry.h; sourceTree = "<group>"; };
-		727C93601347BB3D00BC5FCB /* Entry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entry.m; sourceTree = "<group>"; };
 		727C93621347C21F00BC5FCB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		727EB0EE125948CB0051ADEB /* DisplayMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayMap.h; sourceTree = "<group>"; };
 		727EB0EF125948CB0051ADEB /* DisplayMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayMap.m; sourceTree = "<group>"; };
@@ -187,6 +185,14 @@
 		72BC04C91259247F0064B930 /* FindUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindUsViewController.m; sourceTree = "<group>"; };
 		72BC04EC125925CE0064B930 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		72BC04F0125925D70064B930 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		72DAB64613481E1C002583D6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		72DAB64713481EF1002583D6 /* LocationGetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationGetter.h; sourceTree = "<group>"; };
+		72DAB64813481EF1002583D6 /* LocationGetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationGetter.m; sourceTree = "<group>"; };
+		72DAB64D13482B08002583D6 /* Entry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Entry.h; path = Classes/Entry.h; sourceTree = "<group>"; };
+		72DAB64E13482B08002583D6 /* Entry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Entry.m; path = Classes/Entry.m; sourceTree = "<group>"; };
+		72DAB65013482E5B002583D6 /* DetailHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailHistoryViewController.h; sourceTree = "<group>"; };
+		72DAB65113482E5B002583D6 /* DetailHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailHistoryViewController.m; sourceTree = "<group>"; };
+		72DAB65213482E5B002583D6 /* DetailHistoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DetailHistoryViewController.xib; path = Classes/DetailHistoryViewController.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Expression-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Expression-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -195,11 +201,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72BC04ED125925CE0064B930 /* CoreLocation.framework in Frameworks */,
 				727C93631347C21F00BC5FCB /* CoreData.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
-				72BC04ED125925CE0064B930 /* CoreLocation.framework in Frameworks */,
 				72BC04F1125925D70064B930 /* MapKit.framework in Frameworks */,
 				7271CD29131CBD9600DFBB51 /* libzbar.a in Frameworks */,
 				7271CD3A131CBEC800DFBB51 /* AVFoundation.framework in Frameworks */,
@@ -221,10 +227,10 @@
 				28216C960DB411BC00E5133A /* FirstViewController.m */,
 				1D3623240D0F684500981E51 /* ExpressionAppDelegate.h */,
 				1D3623250D0F684500981E51 /* ExpressionAppDelegate.m */,
+				72DAB64713481EF1002583D6 /* LocationGetter.h */,
+				72DAB64813481EF1002583D6 /* LocationGetter.m */,
 				72BC04C81259247F0064B930 /* FindUsViewController.h */,
 				72BC04C91259247F0064B930 /* FindUsViewController.m */,
-				72349DB412592A8D00DE6301 /* MapViewController.h */,
-				72349DB512592A8D00DE6301 /* MapViewController.m */,
 				727EB0EE125948CB0051ADEB /* DisplayMap.h */,
 				727EB0EF125948CB0051ADEB /* DisplayMap.m */,
 				721330DC126B908A00BFA275 /* ProjectsViewController.h */,
@@ -237,6 +243,8 @@
 				72866347131DC1FA006DD357 /* QRCodeUrlViewController.m */,
 				729097851347D8D9001C6C4E /* HistoryViewController.h */,
 				729097861347D8D9001C6C4E /* HistoryViewController.m */,
+				72DAB65013482E5B002583D6 /* DetailHistoryViewController.h */,
+				72DAB65113482E5B002583D6 /* DetailHistoryViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -252,9 +260,10 @@
 		29B97314FDCFA39411CA2CEA /* Expression */ = {
 			isa = PBXGroup;
 			children = (
+				72DAB64613481E1C002583D6 /* CoreLocation.framework */,
 				727C935C1347B47E00BC5FCB /* History.xcdatamodeld */,
-				727C935F1347BB3D00BC5FCB /* Entry.h */,
-				727C93601347BB3D00BC5FCB /* Entry.m */,
+				72DAB64D13482B08002583D6 /* Entry.h */,
+				72DAB64E13482B08002583D6 /* Entry.m */,
 				72BB864913235F970071DE1F /* FBConnect */,
 				7271CD0C131CBD9500DFBB51 /* ZBarSDK */,
 				080E96DDFE201D6D7F000001 /* Classes */,
@@ -422,6 +431,7 @@
 				7271CC7F131CA5E800DFBB51 /* QRCodeViewController.xib */,
 				72866348131DC1FA006DD357 /* QRCodeUrlViewController.xib */,
 				729097871347D8D9001C6C4E /* HistoryViewController.xib */,
+				72DAB65213482E5B002583D6 /* DetailHistoryViewController.xib */,
 			);
 			name = XIB;
 			sourceTree = "<group>";
@@ -528,6 +538,7 @@
 				72BBED611329DF9000AF1410 /* Placeholder.png in Resources */,
 				727C93561347AA4700BC5FCB /* 44-shoebox.png in Resources */,
 				729097891347D8D9001C6C4E /* HistoryViewController.xib in Resources */,
+				72DAB65413482E5C002583D6 /* DetailHistoryViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,7 +553,6 @@
 				1D3623260D0F684500981E51 /* ExpressionAppDelegate.m in Sources */,
 				28216C970DB411BC00E5133A /* FirstViewController.m in Sources */,
 				72BC04CA1259247F0064B930 /* FindUsViewController.m in Sources */,
-				72349DB712592A8D00DE6301 /* MapViewController.m in Sources */,
 				727EB0F0125948CB0051ADEB /* DisplayMap.m in Sources */,
 				721330DF126B908A00BFA275 /* ProjectsViewController.m in Sources */,
 				720F27D6126CA2F300434121 /* DetailProjectViewController.m in Sources */,
@@ -560,8 +570,10 @@
 				72BB866C13235F970071DE1F /* FBDialog.m in Sources */,
 				723E0B80132370050069364B /* FBLoginButton.m in Sources */,
 				727C935E1347B47E00BC5FCB /* History.xcdatamodeld in Sources */,
-				727C93611347BB3D00BC5FCB /* Entry.m in Sources */,
 				729097881347D8D9001C6C4E /* HistoryViewController.m in Sources */,
+				72DAB64913481EF1002583D6 /* LocationGetter.m in Sources */,
+				72DAB64F13482B08002583D6 /* Entry.m in Sources */,
+				72DAB65313482E5C002583D6 /* DetailHistoryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

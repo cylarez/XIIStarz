@@ -139,13 +139,6 @@
 {
 	static NSString *CellIdentifier = @"Cell";
 	
-	static NSDateFormatter *dateFormatter = nil;
-	
-	if (dateFormatter == nil) {
-		dateFormatter = [[NSDateFormatter alloc] init];
-		[dateFormatter setDateFormat:@"MMM dd, yyyy HH:mm"];
-	}
-	
 	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
 	if (cell == nil) {
 		cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
@@ -153,9 +146,15 @@
 	
 	Entry *entry = [entryArray objectAtIndex: [indexPath row]];
 	
+    static NSDateFormatter *dateFormatter = nil;
+    
+    if (dateFormatter == nil) {
+		dateFormatter = [[NSDateFormatter alloc] init];
+		[dateFormatter setDateFormat:@"MMM dd, yyyy HH:mm"];
+	}
+    
     [cell.textLabel setText: entry.url];
     cell.detailTextLabel.text = [dateFormatter stringFromDate: entry.date];
-
 	
 	return cell;
 }
@@ -210,13 +209,15 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     Entry *entry    =   [entryArray objectAtIndex:[indexPath row]];
-    QRCodeUrlViewController *urlViewController	=	[[QRCodeUrlViewController alloc] initWithNibName:@"QRCodeUrlViewController" bundle:[NSBundle mainBundle]];
-	urlViewController.codeUrl = entry.url;
-	
-	[self.navigationController pushViewController:urlViewController animated:YES];
     
-	[urlViewController release];
-	urlViewController = nil;
+    DetailHistoryViewController *detailViewController	=	[[DetailHistoryViewController alloc] initWithNibName:@"DetailHistoryViewController" bundle:[NSBundle mainBundle]];
+	
+    detailViewController.entry = entry;
+	
+	[self.navigationController pushViewController:detailViewController animated:YES];
+    
+	[detailViewController release];
+	detailViewController = nil;
 }
 
 @end

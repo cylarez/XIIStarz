@@ -11,11 +11,7 @@
 
 @implementation ExpressionAppDelegate
 
-@synthesize window;
-@synthesize tabBarController;
-@synthesize facebook;
-@synthesize timer, splashImageView;
-@synthesize projects;
+@synthesize window, tabBarController, facebook, timer, splashImageView, projects, lastKnownLocation;
 
 
 #pragma mark -
@@ -37,6 +33,10 @@
 	//[splashImageView removeFromSuperview];
 	timer = [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(getProjects) userInfo:nil repeats:NO];
 	
+    // get our physical location
+    LocationGetter *locationGetter = [[LocationGetter alloc] init];
+    locationGetter.delegate = self;
+    [locationGetter startUpdates];
 
     return YES;
 }
@@ -225,6 +225,22 @@
     }    
 	
     return persistentStoreCoordinator;
+}
+
+#pragma mark - Location Service
+
+- (void)newPhysicalLocation:(CLLocation *)location {
+    
+    // Store for later use
+    self.lastKnownLocation = location;
+
+    
+    // Alert user
+//    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Location Found" message:[NSString stringWithFormat:@"Found physical location.  %f %f", self.lastKnownLocation.coordinate.latitude, self.lastKnownLocation.coordinate.longitude] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
+//    [alert show];
+//    [alert release];
+    
+    // ... continue with initialization of your app
 }
 
 

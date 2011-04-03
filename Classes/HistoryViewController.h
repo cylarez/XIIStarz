@@ -10,6 +10,7 @@
 #import "ExpressionAppDelegate.h"
 #import "Entry.h"
 #import "QRCodeViewController.h"
+#import "DetailHistoryViewController.h"
 
 @interface HistoryViewController : UITableViewController {
     NSManagedObjectContext *managedObjectContext;

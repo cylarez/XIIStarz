@@ -62,7 +62,6 @@
 
 -(IBAction) loadCodeUrl:(NSString*)codeUrl 
 {
-    
 	QRCodeUrlViewController *urlViewController	=	[[QRCodeUrlViewController alloc] initWithNibName:@"QRCodeUrlViewController" bundle:[NSBundle mainBundle]];
 	urlViewController.codeUrl = codeUrl;
 
@@ -88,20 +87,22 @@
     Entry *entry = (Entry *)[NSEntityDescription insertNewObjectForEntityForName:@"Entry" inManagedObjectContext:managedObjectContext];
     [entry setUrl:url];
     [entry setDate: [NSDate date]];
+    CLLocation *location = [(ExpressionAppDelegate *)[[UIApplication sharedApplication] delegate] lastKnownLocation];
+    [entry setLatitude:[NSNumber numberWithDouble:location.coordinate.latitude]];
+    [entry setLongitude:[NSNumber numberWithDouble:location.coordinate.longitude]];
+    
+    // Save Image
+
+    NSData *data = UIImagePNGRepresentation(resultImage.image);
+    [entry setImage:data];
     
     NSError *error;
     
-    if(![managedObjectContext save:&error]){
-        
-	    //This is a serious error saying the record
-	    //could not be saved. Advise the user to
-	    //try again or restart the application. 
-        
+    if (![managedObjectContext save:&error]) {        
     }
     
     [entryArray insertObject:entry atIndex:0];
-    
-    //[self.tableView reloadData];
+
 }
 
 - (void) viewWillAppear:(BOOL)animated
