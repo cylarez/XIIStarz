@@ -77,8 +77,9 @@
     
     NSLog(@"display map");
     [map addAnnotation:annotation];
-    
-    [map setSelectedAnnotations:[[NSArray alloc] initWithObjects:annotation, nil]];
+    NSArray* annotations = [[NSArray alloc] initWithObjects:annotation, nil];
+    [map setSelectedAnnotations:annotations];
+    [annotations release];
 }
 
 -(IBAction) loadCodeUrl

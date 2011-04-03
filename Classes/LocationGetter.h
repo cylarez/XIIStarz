@@ -14,7 +14,7 @@
 - (void) newPhysicalLocation:(CLLocation *)location;
 @end
 
-@interface LocationGetter : NSObject  {
+@interface LocationGetter : NSObject <CLLocationManagerDelegate> {
     CLLocationManager *locationManager;
     id delegate;
 }

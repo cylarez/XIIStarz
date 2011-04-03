@@ -22,9 +22,10 @@
 	
 	appDelegate = [[[UIApplication sharedApplication] delegate] retain];
 	projects = appDelegate.projects;
-	
-	[self.tableView setBackgroundView:[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"background.png"]]];
+	UIImageView *bgImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"background.png"]];
+	[self.tableView setBackgroundView:bgImage];
 	[super viewDidLoad];
+    [bgImage release];
 
 }
 

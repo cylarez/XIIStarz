@@ -34,7 +34,7 @@
 	if ([result isKindOfClass:[NSData class]]) {
         UIImage* profilePicture = [[UIImage alloc] initWithData: result];
 		[self.avatar setImage:profilePicture];
-		
+		[profilePicture release];
     }
 	
 	if ([result isKindOfClass:[NSDictionary class]]) {

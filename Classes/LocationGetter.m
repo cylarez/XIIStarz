@@ -23,10 +23,10 @@ BOOL didUpdate = NO;
     
     locationManager.delegate = self;
     
-    locationManager.distanceFilter = 1000;  // update is triggered after device travels this far (meters)
+    locationManager.distanceFilter = 1;  // update is triggered after device travels this far (meters)
     
     // Alternatively you can use kCLLocationAccuracyHundredMeters or kCLLocationAccuracyHundredMeters, though higher accuracy takes longer to resolve
-    locationManager.desiredAccuracy = kCLLocationAccuracyKilometer;
+    locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters;
     [locationManager startUpdatingLocation];
 }
 
@@ -45,7 +45,7 @@ BOOL didUpdate = NO;
     
     didUpdate = YES;
     // Disable future updates to save power.
-    [locationManager stopUpdatingLocation];
+    //[locationManager stopUpdatingLocation];
     
     // let our delegate know we're done
     [delegate newPhysicalLocation:newLocation];

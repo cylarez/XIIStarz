@@ -56,6 +56,7 @@
 - (NSDictionary *) downloadProjects;
 - (void) getProjects;
 - (void) fadeScreen;
+- (void) updateLocation;
 
 @property (nonatomic, retain) NSArray *projects;
 

@@ -34,16 +34,20 @@
 	timer = [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(getProjects) userInfo:nil repeats:NO];
 	
     // get our physical location
-    if (locationGetter == nil) {
-        locationGetter = [[LocationGetter alloc] init];
-        locationGetter.delegate = self;
-        [locationGetter startUpdates];
-    }
-    //[locationGetter release];
+    [self updateLocation];
+    
     return YES;
 }
 
-
+- (void) updateLocation
+{
+    if (locationGetter == nil) {
+        locationGetter = [[LocationGetter alloc] init];
+    }
+    locationGetter.delegate = self;
+    
+    [locationGetter startUpdates];
+}
 
 - (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {	
     return [facebook handleOpenURL:url]; 
@@ -66,13 +70,18 @@
 														error:&error];
 	
  	// Construct a String around the Data from the response
-	return [[NSString alloc] initWithData:urlData encoding:NSUTF8StringEncoding];
+    NSString *str = [[NSString alloc] initWithData:urlData encoding:NSUTF8StringEncoding];
+	
+    [str autorelease];
+    return str;
 }
 
 - (id)objectWithUrl:(NSURL *)url
 {	
 	SBJsonParser *parser = [SBJsonParser new];
+    [parser autorelease];
 	NSString *jsonString = [self stringWithUrl:url];
+
 	return [parser objectWithString:jsonString];
 }
 
@@ -80,6 +89,7 @@
 {
 	id result = [self objectWithUrl:[NSURL URLWithString:_JSON_URL]];
 	NSDictionary *feed = (NSDictionary *)result;
+
 	return feed;
 }
 
@@ -99,9 +109,14 @@
 			NSURL *url					=	[NSURL URLWithString: projectIcon];
 			NSData *data				=	[NSData dataWithContentsOfURL:url];
 			UIImage *img				=	[[UIImage alloc] initWithData:data];
+           
 			[p setValue:img forKey:@"thumb2"];
+            
+            [img release];
 		}
 	}
+    
+    
 	
 	[self fadeScreen];
 }
@@ -235,11 +250,12 @@
     
     // Store for later use
     self.lastKnownLocation = location;
+    NSLog(@"New Location!  %f %f", location.coordinate.latitude, location.coordinate.longitude);
     
     // Alert user
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Location Found" message:[NSString stringWithFormat:@"Found New Physical Location.  %f %f", self.lastKnownLocation.coordinate.latitude, self.lastKnownLocation.coordinate.longitude] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
-    [alert show];
-    [alert release];
+//    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Location Found" message:[NSString stringWithFormat:@"Found New Physical Location.  %f %f", self.lastKnownLocation.coordinate.latitude, self.lastKnownLocation.coordinate.longitude] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
+//    [alert show];
+//    [alert release];
 
 }
 

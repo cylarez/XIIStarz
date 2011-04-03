@@ -93,6 +93,7 @@
 		720F27D3126CA2F300434121 /* DetailProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailProjectViewController.h; sourceTree = "<group>"; };
 		720F27D4126CA2F300434121 /* DetailProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailProjectViewController.m; sourceTree = "<group>"; };
 		720F27D5126CA2F300434121 /* DetailProjectViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DetailProjectViewController.xib; path = Classes/DetailProjectViewController.xib; sourceTree = "<group>"; };
+		720FE2B21348E2CA00E2001C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		721330DC126B908A00BFA275 /* ProjectsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectsViewController.h; sourceTree = "<group>"; };
 		721330DD126B908A00BFA275 /* ProjectsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectsViewController.m; sourceTree = "<group>"; };
 		721330DE126B908A00BFA275 /* ProjectsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ProjectsViewController.xib; path = Classes/ProjectsViewController.xib; sourceTree = "<group>"; };
@@ -201,6 +202,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72991D091324C04300E6CC7E /* MessageUI.framework in Frameworks */,
 				72BC04ED125925CE0064B930 /* CoreLocation.framework in Frameworks */,
 				727C93631347C21F00BC5FCB /* CoreData.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
@@ -213,7 +215,6 @@
 				7271CD3E131CBEC800DFBB51 /* CoreVideo.framework in Frameworks */,
 				7271CD40131CBEC800DFBB51 /* QuartzCore.framework in Frameworks */,
 				7271CD42131CBEC800DFBB51 /* libiconv.dylib in Frameworks */,
-				72991D091324C04300E6CC7E /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +261,7 @@
 		29B97314FDCFA39411CA2CEA /* Expression */ = {
 			isa = PBXGroup;
 			children = (
+				720FE2B21348E2CA00E2001C /* MessageUI.framework */,
 				72DAB64613481E1C002583D6 /* CoreLocation.framework */,
 				727C935C1347B47E00BC5FCB /* History.xcdatamodeld */,
 				72DAB64D13482B08002583D6 /* Entry.h */,
@@ -589,6 +591,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Expression_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Expression-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
@@ -607,6 +610,7 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Expression_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Expression-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
@@ -625,6 +629,7 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = /Users/cylarez/Documents/Dev/iOS/Facebook/src;
@@ -642,6 +647,7 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = /Users/cylarez/Documents/Dev/iOS/Facebook/src;

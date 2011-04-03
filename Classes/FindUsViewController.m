@@ -22,9 +22,6 @@
 		CGRect CellFrame = CGRectMake(5, 5, 310, 350);
 		
 		mapView=[[MKMapView alloc] initWithFrame:CellFrame];
-		
-		//mapView.delegate	=	self;
-		
 		[mapView setMapType:MKMapTypeStandard];
         [mapView setZoomEnabled:YES];
         [mapView setScrollEnabled:YES];
@@ -43,9 +40,9 @@
 		
 		NSLog(@"display map");
         [mapView addAnnotation:annotation];
-		
-		[mapView setSelectedAnnotations:[[NSArray alloc] initWithObjects:annotation, nil]];
-
+		NSArray* annotations = [[NSArray alloc] initWithObjects:annotation, nil];
+		[mapView setSelectedAnnotations:annotations];
+        [annotations release];
 		[currentView addSubview:mapView];
 		
 	} else {
@@ -55,9 +52,32 @@
 	}
 }
 
+- (IBAction) loadEmailView
+{
+    
+    MFMailComposeViewController* controller = [[MFMailComposeViewController alloc] init];
+    controller.mailComposeDelegate = self;
+    [controller setSubject:@"Information"];
+    [controller setMessageBody:@"Hello there." isHTML:NO]; 
+    [controller setToRecipients:[NSArray arrayWithObject:@"info@12starz.com"]];   
+    if (controller) [self presentModalViewController:controller animated:YES];
+    [controller release];
+}
+
+- (void)mailComposeController:(MFMailComposeViewController*)controller  
+didFinishWithResult:(MFMailComposeResult)result error:(NSError*)error;
+{
+    if (result == MFMailComposeResultSent) {
+        NSLog(@"It's away!");
+    }
+    [self dismissModalViewControllerAnimated:YES];
+}
+
 - (void)mapViewDidFinishLoadingMap:(MKMapView *)mapView {
 	NSLog(@"Finish Loading Map");
 }
+
+
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -80,8 +100,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	appDelegate = (ExpressionAppDelegate *)[[UIApplication sharedApplication] delegate];
-	NSLog(@"test map view");
-
 }
 
 
@@ -108,6 +126,7 @@
 
 
 - (void)dealloc {
+    [mapView release];
     [super dealloc];
 }
 

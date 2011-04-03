@@ -15,6 +15,9 @@
 
 -(IBAction)launchScan:(id)sender
 {	
+    // Update Location
+    [(ExpressionAppDelegate *)[[UIApplication sharedApplication] delegate] updateLocation];
+    
 	// ADD: present a barcode reader that scans from the camera feed
     ZBarReaderViewController *reader = [ZBarReaderViewController new];
     reader.readerDelegate = self;

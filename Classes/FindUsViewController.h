@@ -10,20 +10,23 @@
 #import <MapKit/MapKit.h>
 #import "ExpressionAppDelegate.h"
 #import "DisplayMap.h"
+#import <MessageUI/MessageUI.h>
 
 
-@interface FindUsViewController : UIViewController {
+@interface FindUsViewController : UIViewController <MFMailComposeViewControllerDelegate> {
 	MKMapView *mapView;
 	ExpressionAppDelegate *appDelegate;
 	IBOutlet UIView *currentView;
 	IBOutlet UIButton *mapButton;
 	DisplayMap *annotation;
+    
 }
 
 @property (nonatomic, retain) IBOutlet UIView *currentView;
 @property (nonatomic, retain) IBOutlet UIButton *mapButton;
 @property (nonatomic, retain) IBOutlet DisplayMap *annotation;
 
-- (IBAction)loadMap:(id)sender;
+- (IBAction) loadMap:(id)sender;
+- (IBAction) loadEmailView;
 
 @end

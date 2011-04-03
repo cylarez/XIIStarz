@@ -36,6 +36,7 @@
     self.navigationItem.title= linkName;
     
 	[projectImage setImage:img];
+    [img release];
 }
 
 - (void) viewWillAppear:(BOOL)animated
