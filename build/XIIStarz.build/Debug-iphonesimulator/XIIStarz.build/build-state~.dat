@@ -1,0 +1,1982 @@
+TXIIStarz
+v7
+r0
+t321163613.352726
+cCheck dependencies
+cProcessInfoPlistFile /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/Info.plist Expression-Info.plist
+cCompileXIB /Users/cylarez/Documents/Dev/iOS/XIIStarz/MainWindow.xib
+cCompileXIB /Users/cylarez/Documents/Dev/iOS/XIIStarz/FirstView.xib
+cCpResource build/Debug-iphonesimulator/XIIStarz.app/53-house.png 53-house.png
+cCpResource build/Debug-iphonesimulator/XIIStarz.app/33-cabinet.png 33-cabinet.png
+cCpResource build/Debug-iphonesimulator/XIIStarz.app/71-compass.png 71-compass.png
+cCompileXIB /Users/cylarez/Documents/Dev/iOS/XIIStarz/FindUsView.xib
+cCompileXIB /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/MapViewController.xib
+cCompileXIB /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/ProjectsViewController.xib
+cCompileXIB /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/DetailProjectViewController.xib
+cCpResource build/Debug-iphonesimulator/XIIStarz.app/creatively_advanced.png creatively_advanced.png
+cCpResource build/Debug-iphonesimulator/XIIStarz.app/loading.png loading.png
+cCpResource build/Debug-iphonesimulator/XIIStarz.app/xii_logo.png xii_logo.png
+cCpResource build/Debug-iphonesimulator/XIIStarz.app/background.png background.png
+cCpResource build/Debug-iphonesimulator/XIIStarz.app/logo.png logo.png
+cCpResource build/Debug-iphonesimulator/XIIStarz.app/195-barcode.png 195-barcode.png
+cCompileXIB /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/QRCodeViewController.xib
+cCpResource build/Debug-iphonesimulator/XIIStarz.app/zbar-back.png JSON/ZBarSDK/Resources/zbar-back.png
+cCpResource build/Debug-iphonesimulator/XIIStarz.app/zbar-help.html JSON/ZBarSDK/Resources/zbar-help.html
+cCpResource build/Debug-iphonesimulator/XIIStarz.app/zbar-helpicons.png JSON/ZBarSDK/Resources/zbar-helpicons.png
+cCpResource build/Debug-iphonesimulator/XIIStarz.app/zbar-samples.png JSON/ZBarSDK/Resources/zbar-samples.png
+cCompileXIB /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/QRCodeUrlViewController.xib
+cCpResource build/Debug-iphonesimulator/XIIStarz.app/fb_share_up.png fb_share_up.png
+cCpResource build/Debug-iphonesimulator/XIIStarz.app/fb_share_down.png fb_share_down.png
+cCpResource build/Debug-iphonesimulator/XIIStarz.app/FBDialog.bundle ../Facebook/src/FBDialog.bundle
+cCpResource build/Debug-iphonesimulator/XIIStarz.app/FBConnect.bundle ../Facebook/sample/FBConnect.bundle
+cProcessPCH /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-hfzgmlgkbbwdxuepgtfauocraqkn/Expression_Prefix.pch.gch Expression_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/main.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/ExpressionAppDelegate.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/ExpressionAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/FirstViewController.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/FindUsViewController.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/FindUsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/MapViewController.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/MapViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/DisplayMap.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/DisplayMap.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/ExpMap.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/ExpMap.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/ProjectsViewController.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/ProjectsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/DetailProjectViewController.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/DetailProjectViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/QRCodeViewController.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/QRCodeViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/QRCodeUrlViewController.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/QRCodeUrlViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/NSObject+SBJSON.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/NSString+SBJSON.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJSON.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonBase.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonParser.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonWriter.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/FBRequest.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/FBRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/Facebook.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/Facebook.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/FBLoginDialog.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/FBLoginDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/FBDialog.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/FBDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/FBLoginButton.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/sample/DemoApp/Classes/FBLoginButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/XIIStarz normal i386
+cGenerateDSYMFile /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app.dSYM /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/XIIStarz
+cTouch /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004C6C2FF1000000000006B7E0
+t1282158577
+s440288
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/MapKit.framework/Headers/MKAnnotation.h
+c000000004C6C3011000000000000027E
+t1282158609
+s638
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004C6C301100000000000002FE
+t1282158609
+s766
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004C6C303B000000000016DD50
+t1282158651
+s1498448
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004CC1288A00000000000F34A0
+t1287727242
+s996512
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h
+c000000004CC121DB00000000000004FE
+t1287725531
+s1278
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004CC127E80000000000074190
+t1287727080
+s475536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c000000004CC127FC0000000000063DD0
+t1287727100
+s409040
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c000000004CC122DE0000000000018050
+t1287725790
+s98384
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MKAnnotation.h
+c000000004CC1294D000000000000027E
+t1287727437
+s638
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004CC1294D00000000000002FE
+t1287727437
+s766
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004CC12977000000000017E7F0
+t1287727479
+s1566704
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC12431000000000015CDB0
+t1287726129
+s1428912
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/assert.h
+c000000004CB3E4860000000000000DCB
+t1286857862
+s3531
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/dlfcn.h
+c000000004AB98DF40000000000000B1C
+t1253674484
+s2844
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdio.h
+c000000004CB3E48600000000000040AC
+t1286857862
+s16556
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdlib.h
+c000000004CB3E4860000000000002DF5
+t1286857862
+s11765
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/lib/libiconv.dylib
+c000000004AD4F6DB00000000000049DC
+t1255470811
+s18908
+
+N/Users/cylarez/Documents/Dev/iOS/Facebook/sample/DemoApp/Classes/FBLoginButton.h
+c000000004D73268800000000000003CB
+t1299392136
+s971
+
+N/Users/cylarez/Documents/Dev/iOS/Facebook/src/FBDialog.h
+c000000004D73EBC50000000000001246
+t1299442629
+s4678
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/cylarez/Documents/Dev/iOS/Facebook/src/FBLoginDialog.h
+c000000004D73EBC5000000000000056B
+t1299442629
+s1387
+i"FBDialog.h"
+
+N/Users/cylarez/Documents/Dev/iOS/Facebook/src/FBRequest.h
+c000000004D73EBC50000000000000CD7
+t1299442629
+s3287
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/cylarez/Documents/Dev/iOS/Facebook/src/Facebook.h
+c000000004D73EBC50000000000000CEE
+t1299442629
+s3310
+i"FBLoginDialog.h"
+i"FBRequest.h"
+
+N/Users/cylarez/Documents/Dev/iOS/Facebook/src/JSON/NSObject+SBJSON.h
+c000000004D73EBC50000000000000A01
+t1299442629
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/cylarez/Documents/Dev/iOS/Facebook/src/JSON/NSString+SBJSON.h
+c000000004D73EBC50000000000000916
+t1299442629
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/cylarez/Documents/Dev/iOS/Facebook/src/JSON/SBJSON.h
+c000000004D73EBC50000000000000AED
+t1299442629
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/cylarez/Documents/Dev/iOS/Facebook/src/JSON/SBJsonBase.h
+c000000004D73EBC50000000000000B82
+t1299442629
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/cylarez/Documents/Dev/iOS/Facebook/src/JSON/SBJsonParser.h
+c000000004D73EBC50000000000000C0B
+t1299442629
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/cylarez/Documents/Dev/iOS/Facebook/src/JSON/SBJsonWriter.h
+c000000004D73EBC50000000000001140
+t1299442629
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/sample/DemoApp/Classes/FBLoginButton.h
+c000000004D73268800000000000003CB
+t1299392136
+s971
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/sample/DemoApp/Classes/FBLoginButton.m
+c000000004D73268800000000000007D4
+t1299392136
+s2004
+i"FBLoginButton.h"
+i"Facebook.h"
+i<dlfcn.h>
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/sample/FBConnect.bundle
+c000000004D7326880000000000000066
+t1299392136
+s102
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/FBConnect.h
+c000000004D73EBC500000000000002C2
+t1299442629
+s706
+i"Facebook.h"
+i"FBDialog.h"
+i"FBLoginDialog.h"
+i"FBRequest.h"
+i"SBJSON.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/FBDialog.bundle
+c000000004D7327550000000000000066
+t1299392341
+s102
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/FBDialog.m
+c000000004D73EBC5000000000000576F
+t1299442629
+s22383
+i"FBDialog.h"
+i"Facebook.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/FBLoginDialog.m
+c000000004D73EBC50000000000000BC4
+t1299442629
+s3012
+i"FBDialog.h"
+i"FBLoginDialog.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/FBRequest.m
+c000000004D73EBC50000000000002C7A
+t1299442629
+s11386
+i"FBRequest.h"
+i"JSON.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/Facebook.m
+c000000004D73EBC5000000000000551C
+t1299442629
+s21788
+i"Facebook.h"
+i"FBLoginDialog.h"
+i"FBRequest.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/JSON.h
+c000000004D73EBC500000000000008F9
+t1299442629
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/NSObject+SBJSON.m
+c000000004D73EBC5000000000000089E
+t1299442629
+s2206
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/NSString+SBJSON.m
+c000000004D73EBC5000000000000087D
+t1299442629
+s2173
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJSON.h
+c000000004D73EBC50000000000000AED
+t1299442629
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJSON.m
+c000000004D73EBC50000000000001ABC
+t1299442629
+s6844
+i"SBJSON.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJsonBase.m
+c000000004D73EBC50000000000000AC1
+t1299442629
+s2753
+i"SBJsonBase.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJsonParser.m
+c000000004D73EBC500000000000036D0
+t1299442629
+s14032
+i"SBJsonParser.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJsonWriter.m
+c000000004D73EBC50000000000001F26
+t1299442629
+s7974
+i"SBJsonWriter.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/12bg.jpg
+c000000004D4F09AA0000000000020ACF
+t1297025450
+s133839
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/195-barcode.png
+c000000004CBBDE2C0000000000000093
+t1287380524
+s147
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/33-cabinet.png
+c000000004972180E00000000000000A7
+t1232214030
+s167
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/53-house.png
+c000000004AA5BA5C00000000000000CF
+t1252375132
+s207
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/71-compass.png
+c000000004A26CC760000000000000164
+t1244056694
+s356
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/DetailProjectViewController.h
+c000000004D4C5B59000000000000016D
+t1296849753
+s365
+i<UIKit/UIKit.h>
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/DetailProjectViewController.m
+c000000004D7459690000000000000694
+t1299470697
+s1684
+i"DetailProjectViewController.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/DetailProjectViewController.xib
+c000000004D4C5B0F000000000000447F
+t1296849679
+s17535
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/DisplayMap.h
+c000000004CA91A7600000000000001FB
+t1286150774
+s507
+i<Foundation/Foundation.h>
+i<MapKit/MKAnnotation.h>
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/DisplayMap.m
+c000000004CA919BE000000000000012A
+t1286150590
+s298
+i"DisplayMap.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/ExpMap.h
+c000000004CAA28F60000000000000159
+t1286220022
+s345
+i<UIKit/UIKit.h>
+i<MapKit/MapKit.h>
+i"DisplayMap.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/ExpMap.m
+c000000004CAA33CA0000000000000515
+t1286222794
+s1301
+i"ExpMap.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/ExpressionAppDelegate.h
+c000000004D742B0F00000000000003F5
+t1299458831
+s1013
+i<UIKit/UIKit.h>
+i"FBConnect.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/ExpressionAppDelegate.m
+c000000004D7443FA0000000000001100
+t1299465210
+s4352
+i"ExpressionAppDelegate.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/FindUsViewController.h
+c000000004CAA33E300000000000002AF
+t1286222819
+s687
+i<UIKit/UIKit.h>
+i<MapKit/MapKit.h>
+i"ExpressionAppDelegate.h"
+i"DisplayMap.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/FindUsViewController.m
+c000000004D7305DB0000000000000C62
+t1299383771
+s3170
+i"FindUsViewController.h"
+i<MapKit/MapKit.h>
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/FirstViewController.h
+c000000004D74448700000000000003F4
+t1299465351
+s1012
+i<UIKit/UIKit.h>
+i"FBConnect.h"
+i"FBLoginButton.h"
+i"ExpressionAppDelegate.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/FirstViewController.m
+c000000004D744B0300000000000010A0
+t1299467011
+s4256
+i"FirstViewController.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/MapViewController.h
+c000000004CA8F3D30000000000000106
+t1286140883
+s262
+i<UIKit/UIKit.h>
+i<MapKit/MapKit.h>
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/MapViewController.m
+c000000004CA8F30D00000000000005A6
+t1286140685
+s1446
+i"MapViewController.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/MapViewController.xib
+c000000004CA8F30D000000000000186E
+t1286140685
+s6254
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/ProjectsViewController.h
+c000000004D732EA90000000000000229
+t1299394217
+s553
+i<UIKit/UIKit.h>
+i"DetailProjectViewController.h"
+i"JSON.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/ProjectsViewController.m
+c000000004D732A010000000000001B98
+t1299393025
+s7064
+i"ProjectsViewController.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/ProjectsViewController.xib
+c000000004D7459AF000000000000494D
+t1299470767
+s18765
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/QRCodeUrlViewController.h
+c000000004D745606000000000000029A
+t1299469830
+s666
+i<UIKit/UIKit.h>
+i"ExpressionAppDelegate.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/QRCodeUrlViewController.m
+c000000004D74570B000000000000086D
+t1299470091
+s2157
+i"QRCodeUrlViewController.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/QRCodeUrlViewController.xib
+c000000004D72ABAF00000000000052C9
+t1299360687
+s21193
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/QRCodeViewController.h
+c000000004D6DE2BC00000000000002C9
+t1299047100
+s713
+i<UIKit/UIKit.h>
+i"ZBarSDK.h"
+i"QRCodeUrlViewController.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/QRCodeViewController.m
+c000000004D7339A50000000000000E48
+t1299397029
+s3656
+i"QRCodeViewController.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/QRCodeViewController.xib
+c000000004D6DBC030000000000006DD7
+t1299037187
+s28119
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/Expression_Prefix.pch
+c000000004CA8CE9400000000000000BD
+t1286131348
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/FindUsView.xib
+c000000004D4F370E000000000000871F
+t1297037070
+s34591
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/FirstView.xib
+c000000004D733E960000000000006BA9
+t1299398294
+s27561
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/JSON.h
+c000000004C5354180000000000000BE8
+t1280529432
+s3048
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+i<JSON/SBJsonParser.h>
+i<JSON/SBJsonWriter.h>
+i<JSON/NSObject+SBJSON.h>
+i<JSON/NSString+SBJSON.h>
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/NSObject+SBJSON.h
+c000000004C535269000000000000085F
+t1280529001
+s2143
+i<Foundation/Foundation.h>
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/NSObject+SBJSON.m
+c000000004C535269000000000000077D
+t1280529001
+s1917
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/NSString+SBJSON.h
+c000000004C53526900000000000007F0
+t1280529001
+s2032
+i<Foundation/Foundation.h>
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/NSString+SBJSON.m
+c000000004C535269000000000000075D
+t1280529001
+s1885
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/SBJsonBase.h
+c000000004C5352690000000000000B82
+t1280529001
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/SBJsonBase.m
+c000000004C5352690000000000000AC1
+t1280529001
+s2753
+i"SBJsonBase.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/SBJsonParser.h
+c000000004C5352690000000000000C8F
+t1280529001
+s3215
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/SBJsonParser.m
+c000000004C5352690000000000003B7A
+t1280529001
+s15226
+i"SBJsonParser.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/SBJsonWriter.h
+c000000004C53526900000000000011D9
+t1280529001
+s4569
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/SBJsonWriter.m
+c000000004C53526900000000000020D8
+t1280529001
+s8408
+i"SBJsonWriter.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/ZBarSDK/Headers/ZBarSDK/ZBarCaptureReader.h
+c000000004D1A5A8D0000000000000DD4
+t1293572749
+s3540
+i<CoreGraphics/CoreGraphics.h>
+i"ZBarImageScanner.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/ZBarSDK/Headers/ZBarSDK/ZBarHelpController.h
+c000000004D1A5A8D00000000000007B2
+t1293572749
+s1970
+i<UIKit/UIKit.h>
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/ZBarSDK/Headers/ZBarSDK/ZBarImage.h
+c000000004D1A5A8D0000000000000905
+t1293572749
+s2309
+i<UIKit/UIKit.h>
+i"zbar.h"
+i"ZBarSymbol.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/ZBarSDK/Headers/ZBarSDK/ZBarImageScanner.h
+c000000004D1A5A8D00000000000006AB
+t1293572749
+s1707
+i<Foundation/Foundation.h>
+i"zbar.h"
+i"ZBarImage.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/ZBarSDK/Headers/ZBarSDK/ZBarReaderController.h
+c000000004D1A5A8D000000000000145B
+t1293572749
+s5211
+i<UIKit/UIKit.h>
+i"ZBarImageScanner.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/ZBarSDK/Headers/ZBarSDK/ZBarReaderView.h
+c000000004D1A5A8D0000000000000F59
+t1293572749
+s3929
+i<UIKit/UIKit.h>
+i"ZBarImageScanner.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/ZBarSDK/Headers/ZBarSDK/ZBarReaderViewController.h
+c000000004D1A5A8D0000000000000FA8
+t1293572749
+s4008
+i<UIKit/UIKit.h>
+i"ZBarReaderController.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/ZBarSDK/Headers/ZBarSDK/ZBarSDK.h
+c000000004D1A5A8D0000000000000535
+t1293572749
+s1333
+i"zbar.h"
+i"ZBarSymbol.h"
+i"ZBarImage.h"
+i"ZBarImageScanner.h"
+i"ZBarReaderView.h"
+i"ZBarReaderViewController.h"
+i"ZBarReaderController.h"
+i"ZBarCaptureReader.h"
+i"ZBarHelpController.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/ZBarSDK/Headers/ZBarSDK/ZBarSymbol.h
+c000000004D1A5A8D0000000000000957
+t1293572749
+s2391
+i<Foundation/Foundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i"zbar.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/ZBarSDK/Headers/ZBarSDK/zbar.h
+c000000004D1A5A8D000000000000CF42
+t1293572749
+s53058
+i"zbar/Exception.h"
+i"zbar/Decoder.h"
+i"zbar/Scanner.h"
+i"zbar/Symbol.h"
+i"zbar/Image.h"
+i"zbar/ImageScanner.h"
+i"zbar/Video.h"
+i"zbar/Window.h"
+i"zbar/Processor.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/ZBarSDK/Headers/ZBarSDK/zbar/Decoder.h
+c000000004D1A5A8D0000000000001614
+t1293572749
+s5652
+i<string>
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/ZBarSDK/Headers/ZBarSDK/zbar/Exception.h
+c000000004D1A5A8D0000000000001210
+t1293572749
+s4624
+i<exception>
+i<new>
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/ZBarSDK/Headers/ZBarSDK/zbar/Image.h
+c000000004D1A5A8D00000000000021B5
+t1293572749
+s8629
+i<assert.h>
+i<iterator>
+i"Symbol.h"
+i"Exception.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/ZBarSDK/Headers/ZBarSDK/zbar/ImageScanner.h
+c000000004D1A5A8D0000000000000EAB
+t1293572749
+s3755
+i"Image.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/ZBarSDK/Headers/ZBarSDK/zbar/Processor.h
+c000000004D1A5A8D0000000000001B3B
+t1293572749
+s6971
+i"Exception.h"
+i"Image.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/ZBarSDK/Headers/ZBarSDK/zbar/Scanner.h
+c000000004D1A5A8D0000000000001065
+t1293572749
+s4197
+i<stdio.h>
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/ZBarSDK/Headers/ZBarSDK/zbar/Symbol.h
+c000000004D1A5A8D0000000000003086
+t1293572749
+s12422
+i<stdlib.h>
+i<string>
+i<ostream>
+i<assert.h>
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/ZBarSDK/Headers/ZBarSDK/zbar/Video.h
+c000000004D1A5A8D000000000000115D
+t1293572749
+s4445
+i"Image.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/ZBarSDK/Headers/ZBarSDK/zbar/Window.h
+c000000004D1A5A8D0000000000000E9D
+t1293572749
+s3741
+i"Image.h"
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/ZBarSDK/Resources/zbar-back.png
+c000000004D1A5A8D000000000000013F
+t1293572749
+s319
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/ZBarSDK/Resources/zbar-help.html
+c000000004D1A5A8D0000000000000D37
+t1293572749
+s3383
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/ZBarSDK/Resources/zbar-helpicons.png
+c000000004D1A5A8D00000000000047AE
+t1293572749
+s18350
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/ZBarSDK/Resources/zbar-samples.png
+c000000004D1A5A8D000000000000049D
+t1293572749
+s1181
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/ZBarSDK/libzbar.a
+c000000004D1A5A8D00000000002A2C04
+t1293572749
+s2763780
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/MainWindow.xib
+c000000004D731C18000000000000C089
+t1299389464
+s49289
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/background.png
+c000000004D61D206000000000004B9E4
+t1298256390
+s309732
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app
+t1299470813
+s1020
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app.dSYM
+t1299470813
+s102
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/12bg.jpg
+t1297129646
+s133839
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/195-barcode.png
+t1299470807
+s147
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/33-cabinet.png
+t1299470806
+s167
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/53-house.png
+t1299470806
+s207
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/71-compass.png
+t1299470806
+s356
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/DetailProjectViewController.nib
+t1299470807
+s944
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/FBConnect.bundle
+t1299470807
+s102
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/FBDialog.bundle
+t1299470807
+s102
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/FindUsView.nib
+t1299470806
+s3015
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/FirstView.nib
+t1299470805
+s2038
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/Info.plist
+t1299470804
+s821
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/MainWindow.nib
+t1299470806
+s2844
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/MapViewController.nib
+t1299470806
+s764
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/PkgInfo
+t1299470804
+s8
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/ProjectsViewController.nib
+t1299470807
+s1010
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/QRCodeUrlViewController.nib
+t1299470807
+s1161
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/QRCodeViewController.nib
+t1299470807
+s2175
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/XIIStarz
+t1299470813
+s415080
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/background.png
+t1299470807
+s309732
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/creatively_advanced.png
+t1299470807
+s3995
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/expression_icon.png
+t1297027543
+s7957
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/expression_logo.png
+t1297129646
+s19010
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/fb_share_down.png
+t1299470807
+s3612
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/fb_share_up.png
+t1299470807
+s3634
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/loading.png
+t1299470807
+s276332
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/logo.png
+t1299470807
+s2782
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/xii_logo.png
+t1299470807
+s5904
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/zbar-back.png
+t1299470807
+s319
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/zbar-help.html
+t1299470807
+s3383
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/zbar-helpicons.png
+t1299470807
+s18350
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/zbar-samples.png
+t1299470807
+s1181
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/DetailProjectViewController.o
+t1299470812
+s41552
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/DisplayMap.o
+t1299470811
+s12152
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/ExpMap.o
+t1299470812
+s42748
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/ExpressionAppDelegate.o
+t1299470811
+s66968
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/FBDialog.o
+t1299470813
+s109736
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/FBLoginButton.o
+t1299470812
+s40488
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/FBLoginDialog.o
+t1299470812
+s43884
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/FBRequest.o
+t1299470812
+s43592
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/Facebook.o
+t1299470812
+s75624
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/FindUsViewController.o
+t1299470811
+s59944
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/FirstViewController.o
+t1299470811
+s65400
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/MapViewController.o
+t1299470811
+s38180
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/NSObject+SBJSON-6FAFEE39CCB8424F.o
+t1299393999
+s7388
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/NSObject+SBJSON-C9327554B8CFED68.o
+t1299393999
+s8324
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/NSObject+SBJSON.o
+t1299470812
+s8324
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/NSString+SBJSON-60B2AC8E2FA86251.o
+t1299393999
+s7280
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/NSString+SBJSON-E076303A537EAE54.o
+t1299393999
+s8244
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/NSString+SBJSON.o
+t1299470812
+s8244
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/ProjectsViewController.o
+t1299470812
+s56716
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/QRCodeUrlViewController.o
+t1299470812
+s61712
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/QRCodeViewController.o
+t1299470812
+s63808
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJSON.o
+t1299470812
+s20108
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonBase-51B56AE292988253.o
+t1299393999
+s13208
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonBase-C27BACE3195EEE58.o
+t1299393999
+s13240
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonBase.o
+t1299470812
+s13240
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonParser-42B82936F588A255.o
+t1299393999
+s36888
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonParser-B37E6B377C4F0E5A.o
+t1299394000
+s35924
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonParser.o
+t1299470812
+s35924
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonWriter-33BAE78B5878C257.o
+t1299393999
+s26704
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonWriter-A481298BDF3F2E5C.o
+t1299394000
+s25580
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonWriter.o
+t1299470812
+s25580
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/XIIStarz.LinkFileList
+c000000004D7459D40000000000000BC8
+t1299470804
+s3016
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/main.o
+t1299470811
+s6308
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/creatively_advanced.png
+c000000004D61D2890000000000000F9B
+t1298256521
+s3995
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/expression_icon.png
+c000000004CBC61AC0000000000001F15
+t1287414188
+s7957
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/expression_logo.png
+c000000004CBC54440000000000004A42
+t1287410756
+s19010
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/fb_share_down.png
+c000000004D6ED1290000000000000E1C
+t1299108137
+s3612
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/fb_share_up.png
+c000000004D6ED1010000000000000E32
+t1299108097
+s3634
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/loading.png
+c000000004D61CA17000000000004376C
+t1298254359
+s276332
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/logo.png
+c000000004D61D2370000000000000ADE
+t1298256439
+s2782
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/main.m
+c000000004CA8CE94000000000000016C
+t1286131348
+s364
+i<UIKit/UIKit.h>
+
+N/Users/cylarez/Documents/Dev/iOS/XIIStarz/xii_logo.png
+c000000004D5FF4FC0000000000001710
+t1298134268
+s5904
+
+N/var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-ctcvglhtelzqtzfwnhhlhrqfosdh/Expression_Prefix.pch.gch
+t1297129648
+s15453392
+
+N/var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-ghqfdjmgekzcgpdoagjowaiisjge/Expression_Prefix.pch.gch
+t1297027327
+s15211536
+
+N/var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-hfzgmlgkbbwdxuepgtfauocraqkn/Expression_Prefix.pch.gch
+t1299470810
+s15453392
+
+NExpression-Info.plist
+c000000004D73402E00000000000004E1
+t1299398702
+s1249
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies321163604#321163604#0(0"0(0#1#0"8670931232#0"0#
+
+CCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/DetailProjectViewController.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/DetailProjectViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321163612.057042
+e321163612.159064
+r1
+xCompileC
+xbuild/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/DetailProjectViewController.o
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/DetailProjectViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/DetailProjectViewController.m321163612#321163612#0(0"0(0#0#79"/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/DetailProjectViewController.m8671341760#2073"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/Facebook/src -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -include /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-hfzgmlgkbbwdxuepgtfauocraqkn/Expression_Prefix.pch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/DetailProjectViewController.m -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/DetailProjectViewController.o0#
+
+CCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/DisplayMap.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/DisplayMap.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321163611.773064
+e321163611.865769
+r1
+xCompileC
+xbuild/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/DisplayMap.o
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/DisplayMap.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/DisplayMap.m321163611#321163611#0(0"0(0#0#62"/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/DisplayMap.m8672155776#2039"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/Facebook/src -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -include /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-hfzgmlgkbbwdxuepgtfauocraqkn/Expression_Prefix.pch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/DisplayMap.m -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/DisplayMap.o0#
+
+CCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/ExpMap.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/ExpMap.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321163611.863436
+e321163612.056936
+r1
+xCompileC
+xbuild/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/ExpMap.o
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/ExpMap.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/ExpMap.m321163611#321163612#0(0"0(0#0#58"/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/ExpMap.m8671643648#2031"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/Facebook/src -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -include /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-hfzgmlgkbbwdxuepgtfauocraqkn/Expression_Prefix.pch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/ExpMap.m -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/ExpMap.o0#
+
+CCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/ExpressionAppDelegate.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/ExpressionAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321163611.521677
+e321163611.637311
+r1
+xCompileC
+xbuild/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/ExpressionAppDelegate.o
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/ExpressionAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/ExpressionAppDelegate.m321163611#321163611#0(0"0(0#0#73"/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/ExpressionAppDelegate.m8671764256#2061"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/Facebook/src -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -include /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-hfzgmlgkbbwdxuepgtfauocraqkn/Expression_Prefix.pch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/ExpressionAppDelegate.m -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/ExpressionAppDelegate.o0#
+
+CCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/FBDialog.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/FBDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321163612.746396
+e321163613.031996
+r1
+xCompileC
+xbuild/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/FBDialog.o
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/FBDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/FBDialog.m321163612#321163613#0(0"0(0#0#68"/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/FBDialog.m8671055936#2043"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/Facebook/src -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -include /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-hfzgmlgkbbwdxuepgtfauocraqkn/Expression_Prefix.pch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/FBDialog.m -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/FBDialog.o0#
+
+CCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/FBLoginButton.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/sample/DemoApp/Classes/FBLoginButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321163612.892880
+e321163612.980866
+r1
+xCompileC
+xbuild/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/FBLoginButton.o
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/sample/DemoApp/Classes/FBLoginButton.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/sample/DemoApp/Classes/FBLoginButton.m321163612#321163612#0(0"0(0#0#92"/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/sample/DemoApp/Classes/FBLoginButton.m8630660448#2072"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/Facebook/src -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -include /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-hfzgmlgkbbwdxuepgtfauocraqkn/Expression_Prefix.pch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/sample/DemoApp/Classes/FBLoginButton.m -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/FBLoginButton.o0#
+
+CCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/FBLoginDialog.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/FBLoginDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321163612.730989
+e321163612.892785
+r1
+xCompileC
+xbuild/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/FBLoginDialog.o
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/FBLoginDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/FBLoginDialog.m321163612#321163612#0(0"0(0#0#73"/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/FBLoginDialog.m8671381856#2053"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/Facebook/src -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -include /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-hfzgmlgkbbwdxuepgtfauocraqkn/Expression_Prefix.pch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/FBLoginDialog.m -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/FBLoginDialog.o0#
+
+CCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/FBRequest.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/FBRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321163612.572937
+e321163612.730895
+r1
+xCompileC
+xbuild/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/FBRequest.o
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/FBRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/FBRequest.m321163612#321163612#0(0"0(0#0#69"/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/FBRequest.m8673307328#2045"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/Facebook/src -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -include /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-hfzgmlgkbbwdxuepgtfauocraqkn/Expression_Prefix.pch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/FBRequest.m -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/FBRequest.o0#
+
+CCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/Facebook.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/Facebook.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321163612.606920
+e321163612.746299
+r1
+xCompileC
+xbuild/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/Facebook.o
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/Facebook.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/Facebook.m321163612#321163612#0(0"0(0#0#68"/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/Facebook.m8672137024#2043"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/Facebook/src -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -include /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-hfzgmlgkbbwdxuepgtfauocraqkn/Expression_Prefix.pch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/Facebook.m -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/Facebook.o0#
+
+CCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/FindUsViewController.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/FindUsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321163611.637411
+e321163611.772981
+r1
+xCompileC
+xbuild/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/FindUsViewController.o
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/FindUsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/FindUsViewController.m321163611#321163611#0(0"0(0#0#72"/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/FindUsViewController.m8674397056#2059"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/Facebook/src -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -include /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-hfzgmlgkbbwdxuepgtfauocraqkn/Expression_Prefix.pch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/FindUsViewController.m -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/FindUsViewController.o0#
+
+CCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/FirstViewController.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321163611.588453
+e321163611.729279
+r1
+xCompileC
+xbuild/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/FirstViewController.o
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/FirstViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/FirstViewController.m321163611#321163611#0(0"0(0#0#71"/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/FirstViewController.m8671077024#2057"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/Facebook/src -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -include /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-hfzgmlgkbbwdxuepgtfauocraqkn/Expression_Prefix.pch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/FirstViewController.m -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/FirstViewController.o0#
+
+CCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/MapViewController.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/MapViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321163611.729381
+e321163611.858255
+r1
+xCompileC
+xbuild/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/MapViewController.o
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/MapViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/MapViewController.m321163611#321163611#0(0"0(0#0#69"/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/MapViewController.m8672870784#2053"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/Facebook/src -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -include /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-hfzgmlgkbbwdxuepgtfauocraqkn/Expression_Prefix.pch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/MapViewController.m -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/MapViewController.o0#
+
+CCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/NSObject+SBJSON-6FAFEE39CCB8424F.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321086799.223739
+e321086799.310014
+r1
+xCompileC
+xbuild/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/NSObject+SBJSON-6FAFEE39CCB8424F.o
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/NSObject+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/NSObject+SBJSON.m321086799#321086799#0(0"0(0#0#64"/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/NSObject+SBJSON.m8608972704#2063"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/Facebook/src -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -include /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-hfzgmlgkbbwdxuepgtfauocraqkn/Expression_Prefix.pch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/NSObject+SBJSON.m -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/NSObject+SBJSON-6FAFEE39CCB8424F.o0#
+
+CCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/NSObject+SBJSON-C9327554B8CFED68.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321086799.753352
+e321086799.828747
+r1
+xCompileC
+xbuild/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/NSObject+SBJSON-C9327554B8CFED68.o
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/NSObject+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/NSObject+SBJSON.m321086799#321086799#0(0"0(0#0#80"/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/NSObject+SBJSON.m8608572992#2079"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/Facebook/src -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -include /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-hfzgmlgkbbwdxuepgtfauocraqkn/Expression_Prefix.pch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/NSObject+SBJSON.m -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/NSObject+SBJSON-C9327554B8CFED68.o0#
+
+CCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/NSObject+SBJSON.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321163612.255815
+e321163612.331177
+r1
+xCompileC
+xbuild/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/NSObject+SBJSON.o
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/NSObject+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/NSObject+SBJSON.m321163612#321163612#0(0"0(0#0#80"/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/NSObject+SBJSON.m8598621472#2062"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/Facebook/src -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -include /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-hfzgmlgkbbwdxuepgtfauocraqkn/Expression_Prefix.pch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/NSObject+SBJSON.m -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/NSObject+SBJSON.o0#
+
+CCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/NSObject+SBJSON.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318822449.562482
+e318822449.671732
+r1
+xCompileC
+xbuild/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/NSObject+SBJSON.o
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/NSObject+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/NSObject+SBJSON.m318822449#318822449#0(0"0(0#0#64"/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/NSObject+SBJSON.m8603139808#1998"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -include /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-ctcvglhtelzqtzfwnhhlhrqfosdh/Expression_Prefix.pch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/NSObject+SBJSON.m -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/NSObject+SBJSON.o0#
+
+CCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/NSString+SBJSON-60B2AC8E2FA86251.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321086799.299494
+e321086799.369872
+r1
+xCompileC
+xbuild/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/NSString+SBJSON-60B2AC8E2FA86251.o
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/NSString+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/NSString+SBJSON.m321086799#321086799#0(0"0(0#0#64"/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/NSString+SBJSON.m8609398272#2063"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/Facebook/src -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -include /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-hfzgmlgkbbwdxuepgtfauocraqkn/Expression_Prefix.pch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/NSString+SBJSON.m -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/NSString+SBJSON-60B2AC8E2FA86251.o0#
+
+CCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/NSString+SBJSON-E076303A537EAE54.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321086799.754813
+e321086799.834528
+r1
+xCompileC
+xbuild/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/NSString+SBJSON-E076303A537EAE54.o
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/NSString+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/NSString+SBJSON.m321086799#321086799#0(0"0(0#0#80"/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/NSString+SBJSON.m8608158944#2079"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/Facebook/src -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -include /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-hfzgmlgkbbwdxuepgtfauocraqkn/Expression_Prefix.pch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/NSString+SBJSON.m -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/NSString+SBJSON-E076303A537EAE54.o0#
+
+CCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/NSString+SBJSON.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321163612.293941
+e321163612.366633
+r1
+xCompileC
+xbuild/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/NSString+SBJSON.o
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/NSString+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/NSString+SBJSON.m321163612#321163612#0(0"0(0#0#80"/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/NSString+SBJSON.m8671987872#2062"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/Facebook/src -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -include /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-hfzgmlgkbbwdxuepgtfauocraqkn/Expression_Prefix.pch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/NSString+SBJSON.m -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/NSString+SBJSON.o0#
+
+CCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/NSString+SBJSON.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318822449.628532
+e318822449.728509
+r1
+xCompileC
+xbuild/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/NSString+SBJSON.o
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/NSString+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/NSString+SBJSON.m318822449#318822449#0(0"0(0#0#64"/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/NSString+SBJSON.m8610986400#1998"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -include /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-ctcvglhtelzqtzfwnhhlhrqfosdh/Expression_Prefix.pch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/NSString+SBJSON.m -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/NSString+SBJSON.o0#
+
+CCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/ProjectsViewController.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/ProjectsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321163611.865867
+e321163612.101372
+r1
+xCompileC
+xbuild/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/ProjectsViewController.o
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/ProjectsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/ProjectsViewController.m321163611#321163612#0(0"0(0#0#74"/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/ProjectsViewController.m8671310368#2063"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/Facebook/src -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -include /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-hfzgmlgkbbwdxuepgtfauocraqkn/Expression_Prefix.pch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/ProjectsViewController.m -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/ProjectsViewController.o0#
+
+CCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/QRCodeUrlViewController.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/QRCodeUrlViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321163612.159167
+e321163612.293843
+r1
+xCompileC
+xbuild/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/QRCodeUrlViewController.o
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/QRCodeUrlViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/QRCodeUrlViewController.m321163612#321163612#0(0"0(0#0#75"/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/QRCodeUrlViewController.m8673377408#2065"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/Facebook/src -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -include /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-hfzgmlgkbbwdxuepgtfauocraqkn/Expression_Prefix.pch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/QRCodeUrlViewController.m -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/QRCodeUrlViewController.o0#
+
+CCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/QRCodeViewController.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/QRCodeViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321163612.101477
+e321163612.255712
+r1
+xCompileC
+xbuild/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/QRCodeViewController.o
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/QRCodeViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/QRCodeViewController.m321163612#321163612#0(0"0(0#0#72"/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/QRCodeViewController.m8674687648#2059"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/Facebook/src -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -include /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-hfzgmlgkbbwdxuepgtfauocraqkn/Expression_Prefix.pch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/QRCodeViewController.m -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/QRCodeViewController.o0#
+
+CCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJSON.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321163612.331273
+e321163612.466659
+r1
+xCompileC
+xbuild/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJSON.o
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJSON.m321163612#321163612#0(0"0(0#0#71"/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJSON.m8667325344#2044"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/Facebook/src -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -include /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-hfzgmlgkbbwdxuepgtfauocraqkn/Expression_Prefix.pch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJSON.m -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJSON.o0#
+
+CCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonBase-51B56AE292988253.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321086799.310105
+e321086799.382405
+r1
+xCompileC
+xbuild/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonBase-51B56AE292988253.o
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/SBJsonBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/SBJsonBase.m321086799#321086799#0(0"0(0#0#59"/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/SBJsonBase.m8608950208#2053"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/Facebook/src -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -include /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-hfzgmlgkbbwdxuepgtfauocraqkn/Expression_Prefix.pch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/SBJsonBase.m -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonBase-51B56AE292988253.o0#
+
+CCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonBase-C27BACE3195EEE58.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321086799.834623
+e321086799.932426
+r1
+xCompileC
+xbuild/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonBase-C27BACE3195EEE58.o
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJsonBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJsonBase.m321086799#321086799#0(0"0(0#0#75"/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJsonBase.m8607500640#2069"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/Facebook/src -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -include /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-hfzgmlgkbbwdxuepgtfauocraqkn/Expression_Prefix.pch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJsonBase.m -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonBase-C27BACE3195EEE58.o0#
+
+CCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonBase.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321163612.366740
+e321163612.456056
+r1
+xCompileC
+xbuild/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonBase.o
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJsonBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJsonBase.m321163612#321163612#0(0"0(0#0#75"/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJsonBase.m8647056256#2052"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/Facebook/src -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -include /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-hfzgmlgkbbwdxuepgtfauocraqkn/Expression_Prefix.pch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJsonBase.m -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonBase.o0#
+
+CCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonBase.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318822449.671831
+e318822449.748318
+r1
+xCompileC
+xbuild/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonBase.o
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/SBJsonBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/SBJsonBase.m318822449#318822449#0(0"0(0#0#59"/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/SBJsonBase.m8609634112#1988"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -include /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-ctcvglhtelzqtzfwnhhlhrqfosdh/Expression_Prefix.pch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/SBJsonBase.m -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonBase.o0#
+
+CCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonParser-42B82936F588A255.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321086799.369978
+e321086799.544559
+r1
+xCompileC
+xbuild/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonParser-42B82936F588A255.o
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/SBJsonParser.m321086799#321086799#0(0"0(0#0#61"/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/SBJsonParser.m8606373504#2057"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/Facebook/src -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -include /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-hfzgmlgkbbwdxuepgtfauocraqkn/Expression_Prefix.pch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/SBJsonParser.m -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonParser-42B82936F588A255.o0#
+
+CCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonParser-B37E6B377C4F0E5A.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321086799.932526
+e321086800.075773
+r1
+xCompileC
+xbuild/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonParser-B37E6B377C4F0E5A.o
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJsonParser.m321086799#321086800#0(0"0(0#0#77"/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJsonParser.m8609479424#2073"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/Facebook/src -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -include /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-hfzgmlgkbbwdxuepgtfauocraqkn/Expression_Prefix.pch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJsonParser.m -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonParser-B37E6B377C4F0E5A.o0#
+
+CCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonParser.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321163612.456150
+e321163612.606818
+r1
+xCompileC
+xbuild/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonParser.o
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJsonParser.m321163612#321163612#0(0"0(0#0#77"/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJsonParser.m8674713152#2056"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/Facebook/src -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -include /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-hfzgmlgkbbwdxuepgtfauocraqkn/Expression_Prefix.pch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJsonParser.m -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonParser.o0#
+
+CCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonParser.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318822449.728610
+e318822449.909691
+r1
+xCompileC
+xbuild/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonParser.o
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/SBJsonParser.m318822449#318822449#0(0"0(0#0#61"/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/SBJsonParser.m8595116704#1992"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -include /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-ctcvglhtelzqtzfwnhhlhrqfosdh/Expression_Prefix.pch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/SBJsonParser.m -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonParser.o0#
+
+CCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonWriter-33BAE78B5878C257.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321086799.382503
+e321086799.503683
+r1
+xCompileC
+xbuild/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonWriter-33BAE78B5878C257.o
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/SBJsonWriter.m321086799#321086799#0(0"0(0#0#61"/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/SBJsonWriter.m8607114464#2057"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/Facebook/src -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -include /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-hfzgmlgkbbwdxuepgtfauocraqkn/Expression_Prefix.pch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/SBJsonWriter.m -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonWriter-33BAE78B5878C257.o0#
+
+CCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonWriter-A481298BDF3F2E5C.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321086799.957625
+e321086800.060733
+r1
+xCompileC
+xbuild/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonWriter-A481298BDF3F2E5C.o
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJsonWriter.m321086799#321086800#0(0"0(0#0#77"/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJsonWriter.m8609194848#2073"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/Facebook/src -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -include /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-hfzgmlgkbbwdxuepgtfauocraqkn/Expression_Prefix.pch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJsonWriter.m -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonWriter-A481298BDF3F2E5C.o0#
+
+CCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonWriter.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321163612.466755
+e321163612.572822
+r1
+xCompileC
+xbuild/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJsonWriter.m321163612#321163612#0(0"0(0#0#77"/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJsonWriter.m8674300256#2056"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/Facebook/src -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -include /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-hfzgmlgkbbwdxuepgtfauocraqkn/Expression_Prefix.pch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/JSON/SBJsonWriter.m -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonWriter.o0#
+
+CCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonWriter.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318822449.748417
+e318822449.874092
+r1
+xCompileC
+xbuild/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/SBJsonWriter.m318822449#318822449#0(0"0(0#0#61"/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/SBJsonWriter.m8611352256#1992"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -include /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-ctcvglhtelzqtzfwnhhlhrqfosdh/Expression_Prefix.pch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/SBJsonWriter.m -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/SBJsonWriter.o0#
+
+CCompileC build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/main.o /Users/cylarez/Documents/Dev/iOS/XIIStarz/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321163611.520435
+e321163611.588352
+r1
+xCompileC
+xbuild/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/main.o
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/main.m321163611#321163611#0(0"0(0#0#48"/Users/cylarez/Documents/Dev/iOS/XIIStarz/main.m8672152896#2019"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/Facebook/src -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -include /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-hfzgmlgkbbwdxuepgtfauocraqkn/Expression_Prefix.pch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/main.m -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/DetailProjectViewController.xib
+s321163606.898245
+e321163607.403718
+r1
+xCompileXIB
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/DetailProjectViewController.xib
+lSLF07#2@50"CompileXIB Classes/DetailProjectViewController.xib321163606#321163607#0(0"0(0#0#81"/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/DetailProjectViewController.xib8672566592#622"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/DetailProjectViewController.nib /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/DetailProjectViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/MapViewController.xib
+s321163606.111206
+e321163606.657847
+r1
+xCompileXIB
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/MapViewController.xib
+lSLF07#2@40"CompileXIB Classes/MapViewController.xib321163606#321163606#0(0"0(0#0#71"/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/MapViewController.xib8674283328#602"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/MapViewController.nib /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/MapViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/ProjectsViewController.xib
+s321163606.658039
+e321163607.113316
+r1
+xCompileXIB
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/ProjectsViewController.xib
+lSLF07#2@45"CompileXIB Classes/ProjectsViewController.xib321163606#321163607#0(0"0(0#0#76"/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/ProjectsViewController.xib8672754496#612"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/ProjectsViewController.nib /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/ProjectsViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/QRCodeUrlViewController.xib
+s321163607.415497
+e321163608.044192
+r1
+xCompileXIB
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/QRCodeUrlViewController.xib
+lSLF07#2@46"CompileXIB Classes/QRCodeUrlViewController.xib321163607#321163608#0(0"0(0#0#77"/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/QRCodeUrlViewController.xib8666740320#614"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/QRCodeUrlViewController.nib /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/QRCodeUrlViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/QRCodeViewController.xib
+s321163607.121711
+e321163607.734778
+r1
+xCompileXIB
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/QRCodeViewController.xib
+lSLF07#2@43"CompileXIB Classes/QRCodeViewController.xib321163607#321163607#0(0"0(0#0#74"/Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/QRCodeViewController.xib8671450848#608"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/QRCodeViewController.nib /Users/cylarez/Documents/Dev/iOS/XIIStarz/Classes/QRCodeViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/cylarez/Documents/Dev/iOS/XIIStarz/FindUsView.xib
+s321163606.009704
+e321163606.898159
+r1
+xCompileXIB
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/FindUsView.xib
+lSLF07#2@25"CompileXIB FindUsView.xib321163606#321163606#0(0"0(0#0#56"/Users/cylarez/Documents/Dev/iOS/XIIStarz/FindUsView.xib8674351712#580"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/FindUsView.nib /Users/cylarez/Documents/Dev/iOS/XIIStarz/FindUsView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/cylarez/Documents/Dev/iOS/XIIStarz/FirstView.xib
+s321163604.754030
+e321163605.995399
+r1
+xCompileXIB
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/FirstView.xib
+lSLF07#2@24"CompileXIB FirstView.xib321163604#321163605#0(0"0(0#0#55"/Users/cylarez/Documents/Dev/iOS/XIIStarz/FirstView.xib8673478944#578"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/FirstView.nib /Users/cylarez/Documents/Dev/iOS/XIIStarz/FirstView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/cylarez/Documents/Dev/iOS/XIIStarz/MainWindow.xib
+s321163604.753363
+e321163606.111119
+r1
+xCompileXIB
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib321163604#321163606#0(0"0(0#0#56"/Users/cylarez/Documents/Dev/iOS/XIIStarz/MainWindow.xib8673800288#580"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/MainWindow.nib /Users/cylarez/Documents/Dev/iOS/XIIStarz/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/XIIStarz.app/12bg.jpg 12bg.jpg
+s318822446.676395
+e318822446.799235
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/XIIStarz.app/12bg.jpg
+x12bg.jpg
+lSLF07#2@13"Copy 12bg.jpg318822446#318822446#0(0"0(0#0#50"/Users/cylarez/Documents/Dev/iOS/XIIStarz/12bg.jpg8610048192#476"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/cylarez/Documents/Dev/iOS/XIIStarz/12bg.jpg /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app0#
+
+CCpResource build/Debug-iphonesimulator/XIIStarz.app/195-barcode.png 195-barcode.png
+s321163607.120035
+e321163607.188134
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/XIIStarz.app/195-barcode.png
+x195-barcode.png
+lSLF07#2@20"Copy 195-barcode.png321163607#321163607#0(0"0(0#0#57"/Users/cylarez/Documents/Dev/iOS/XIIStarz/195-barcode.png8671578944#483"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/cylarez/Documents/Dev/iOS/XIIStarz/195-barcode.png /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app0#
+
+CCpResource build/Debug-iphonesimulator/XIIStarz.app/33-cabinet.png 33-cabinet.png
+s321163605.999494
+e321163606.097967
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/XIIStarz.app/33-cabinet.png
+x33-cabinet.png
+lSLF07#2@19"Copy 33-cabinet.png321163605#321163606#0(0"0(0#0#56"/Users/cylarez/Documents/Dev/iOS/XIIStarz/33-cabinet.png8674793504#482"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/cylarez/Documents/Dev/iOS/XIIStarz/33-cabinet.png /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app0#
+
+CCpResource build/Debug-iphonesimulator/XIIStarz.app/53-house.png 53-house.png
+s321163605.995499
+e321163606.097852
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/XIIStarz.app/53-house.png
+x53-house.png
+lSLF07#2@17"Copy 53-house.png321163605#321163606#0(0"0(0#0#54"/Users/cylarez/Documents/Dev/iOS/XIIStarz/53-house.png8673309152#480"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/cylarez/Documents/Dev/iOS/XIIStarz/53-house.png /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app0#
+
+CCpResource build/Debug-iphonesimulator/XIIStarz.app/71-compass.png 71-compass.png
+s321163606.002198
+e321163606.106225
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/XIIStarz.app/71-compass.png
+x71-compass.png
+lSLF07#2@19"Copy 71-compass.png321163606#321163606#0(0"0(0#0#56"/Users/cylarez/Documents/Dev/iOS/XIIStarz/71-compass.png8674658432#482"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/cylarez/Documents/Dev/iOS/XIIStarz/71-compass.png /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app0#
+
+CCpResource build/Debug-iphonesimulator/XIIStarz.app/FBConnect.bundle ../Facebook/sample/FBConnect.bundle
+s321163607.765456
+e321163607.842681
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/XIIStarz.app/FBConnect.bundle
+x../Facebook/sample/FBConnect.bundle
+lSLF07#2@40"Copy ../Facebook/sample/FBConnect.bundle321163607#321163607#0(0"0(0#0#77"/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/sample/FBConnect.bundle8673569568#503"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/sample/FBConnect.bundle /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app0#
+
+CCpResource build/Debug-iphonesimulator/XIIStarz.app/FBDialog.bundle ../Facebook/src/FBDialog.bundle
+s321163607.740688
+e321163607.862235
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/XIIStarz.app/FBDialog.bundle
+x../Facebook/src/FBDialog.bundle
+lSLF07#2@36"Copy ../Facebook/src/FBDialog.bundle321163607#321163607#0(0"0(0#0#73"/Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/FBDialog.bundle8673943520#499"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/cylarez/Documents/Dev/iOS/XIIStarz/../Facebook/src/FBDialog.bundle /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app0#
+
+CCpResource build/Debug-iphonesimulator/XIIStarz.app/background.png background.png
+s321163607.117059
+e321163607.324401
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/XIIStarz.app/background.png
+xbackground.png
+lSLF07#2@19"Copy background.png321163607#321163607#0(0"0(0#0#56"/Users/cylarez/Documents/Dev/iOS/XIIStarz/background.png8671948992#482"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/cylarez/Documents/Dev/iOS/XIIStarz/background.png /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app0#
+
+CCpResource build/Debug-iphonesimulator/XIIStarz.app/creatively_advanced.png creatively_advanced.png
+s321163607.113399
+e321163607.163546
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/XIIStarz.app/creatively_advanced.png
+xcreatively_advanced.png
+lSLF07#2@28"Copy creatively_advanced.png321163607#321163607#0(0"0(0#0#65"/Users/cylarez/Documents/Dev/iOS/XIIStarz/creatively_advanced.png8672281920#491"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/cylarez/Documents/Dev/iOS/XIIStarz/creatively_advanced.png /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app0#
+
+CCpResource build/Debug-iphonesimulator/XIIStarz.app/expression_icon.png expression_icon.png
+s318720343.290603
+e318720343.313770
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/XIIStarz.app/expression_icon.png
+xexpression_icon.png
+lSLF07#2@24"Copy expression_icon.png318720343#318720343#0(0"0(0#0#61"/Users/cylarez/Documents/Dev/iOS/XIIStarz/expression_icon.png8607229312#473"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/cylarez/Documents/Dev/iOS/XIIStarz/expression_icon.png /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app0#
+
+CCpResource build/Debug-iphonesimulator/XIIStarz.app/expression_logo.png expression_logo.png
+s318822446.630360
+e318822446.676314
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/XIIStarz.app/expression_logo.png
+xexpression_logo.png
+lSLF07#2@24"Copy expression_logo.png318822446#318822446#0(0"0(0#0#61"/Users/cylarez/Documents/Dev/iOS/XIIStarz/expression_logo.png8611770976#487"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/cylarez/Documents/Dev/iOS/XIIStarz/expression_logo.png /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app0#
+
+CCpResource build/Debug-iphonesimulator/XIIStarz.app/fb_share_down.png fb_share_down.png
+s321163607.736734
+e321163607.834517
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/XIIStarz.app/fb_share_down.png
+xfb_share_down.png
+lSLF07#2@22"Copy fb_share_down.png321163607#321163607#0(0"0(0#0#59"/Users/cylarez/Documents/Dev/iOS/XIIStarz/fb_share_down.png8674302400#485"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/cylarez/Documents/Dev/iOS/XIIStarz/fb_share_down.png /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app0#
+
+CCpResource build/Debug-iphonesimulator/XIIStarz.app/fb_share_up.png fb_share_up.png
+s321163607.734865
+e321163607.834399
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/XIIStarz.app/fb_share_up.png
+xfb_share_up.png
+lSLF07#2@20"Copy fb_share_up.png321163607#321163607#0(0"0(0#0#57"/Users/cylarez/Documents/Dev/iOS/XIIStarz/fb_share_up.png8674565088#483"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/cylarez/Documents/Dev/iOS/XIIStarz/fb_share_up.png /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app0#
+
+CCpResource build/Debug-iphonesimulator/XIIStarz.app/loading.png loading.png
+s321163607.114797
+e321163607.324724
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/XIIStarz.app/loading.png
+xloading.png
+lSLF07#2@16"Copy loading.png321163607#321163607#0(0"0(0#0#53"/Users/cylarez/Documents/Dev/iOS/XIIStarz/loading.png8672122976#479"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/cylarez/Documents/Dev/iOS/XIIStarz/loading.png /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app0#
+
+CCpResource build/Debug-iphonesimulator/XIIStarz.app/logo.png logo.png
+s321163607.118378
+e321163607.174390
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/XIIStarz.app/logo.png
+xlogo.png
+lSLF07#2@13"Copy logo.png321163607#321163607#0(0"0(0#0#50"/Users/cylarez/Documents/Dev/iOS/XIIStarz/logo.png8671723104#476"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/cylarez/Documents/Dev/iOS/XIIStarz/logo.png /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app0#
+
+CCpResource build/Debug-iphonesimulator/XIIStarz.app/xii_logo.png xii_logo.png
+s321163607.115622
+e321163607.203101
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/XIIStarz.app/xii_logo.png
+xxii_logo.png
+lSLF07#2@17"Copy xii_logo.png321163607#321163607#0(0"0(0#0#54"/Users/cylarez/Documents/Dev/iOS/XIIStarz/xii_logo.png8671997216#480"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/cylarez/Documents/Dev/iOS/XIIStarz/xii_logo.png /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app0#
+
+CCpResource build/Debug-iphonesimulator/XIIStarz.app/zbar-back.png JSON/ZBarSDK/Resources/zbar-back.png
+s321163607.403803
+e321163607.434973
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/XIIStarz.app/zbar-back.png
+xJSON/ZBarSDK/Resources/zbar-back.png
+lSLF07#2@41"Copy JSON/ZBarSDK/Resources/zbar-back.png321163607#321163607#0(0"0(0#0#78"/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/ZBarSDK/Resources/zbar-back.png8667406912#504"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/ZBarSDK/Resources/zbar-back.png /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app0#
+
+CCpResource build/Debug-iphonesimulator/XIIStarz.app/zbar-help.html JSON/ZBarSDK/Resources/zbar-help.html
+s321163607.404772
+e321163607.468604
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/XIIStarz.app/zbar-help.html
+xJSON/ZBarSDK/Resources/zbar-help.html
+lSLF07#2@42"Copy JSON/ZBarSDK/Resources/zbar-help.html321163607#321163607#0(0"0(0#0#79"/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/ZBarSDK/Resources/zbar-help.html8633348928#505"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/ZBarSDK/Resources/zbar-help.html /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app0#
+
+CCpResource build/Debug-iphonesimulator/XIIStarz.app/zbar-helpicons.png JSON/ZBarSDK/Resources/zbar-helpicons.png
+s321163607.405925
+e321163607.444065
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/XIIStarz.app/zbar-helpicons.png
+xJSON/ZBarSDK/Resources/zbar-helpicons.png
+lSLF07#2@46"Copy JSON/ZBarSDK/Resources/zbar-helpicons.png321163607#321163607#0(0"0(0#0#83"/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/ZBarSDK/Resources/zbar-helpicons.png8666960704#509"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/ZBarSDK/Resources/zbar-helpicons.png /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app0#
+
+CCpResource build/Debug-iphonesimulator/XIIStarz.app/zbar-samples.png JSON/ZBarSDK/Resources/zbar-samples.png
+s321163607.414102
+e321163607.470458
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/XIIStarz.app/zbar-samples.png
+xJSON/ZBarSDK/Resources/zbar-samples.png
+lSLF07#2@44"Copy JSON/ZBarSDK/Resources/zbar-samples.png321163607#321163607#0(0"0(0#0#81"/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/ZBarSDK/Resources/zbar-samples.png8666877792#507"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/ZBarSDK/Resources/zbar-samples.png /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app0#
+
+CGenerateDSYMFile /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app.dSYM /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/XIIStarz
+s321163613.141614
+e321163613.348303
+r1
+xGenerateDSYMFile
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app.dSYM
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/XIIStarz
+lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/XIIStarz.app.dSYM build/Debug-iphonesimulator/XIIStarz.app/XIIStarz321163613#321163613#0(0"0(0#0#91"/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/XIIStarz8672037728#395"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/XIIStarz -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app.dSYM0#
+
+CLd /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/XIIStarz normal i386
+s321163613.032194
+e321163613.141523
+r1
+xLd
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/XIIStarz
+xnormal
+xi386
+lSLF07#2@96"Link /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/XIIStarz321163613#321163613#0(0"0(0#0#0"8673059008#1122"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -L/Users/cylarez/Documents/Dev/iOS/XIIStarz/JSON/ZBarSDK -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -filelist /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/Objects-normal/i386/XIIStarz.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework MapKit -lzbar -framework AVFoundation -framework CoreMedia -framework CoreVideo -framework QuartzCore -liconv -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/XIIStarz0#
+
+CProcessInfoPlistFile /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/Info.plist Expression-Info.plist
+s321163604.737108
+e321163604.753283
+r1
+xProcessInfoPlistFile
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/Info.plist
+xExpression-Info.plist
+lSLF07#2@29"Process Expression-Info.plist321163604#321163604#0(0"0(0#0#63"/Users/cylarez/Documents/Dev/iOS/XIIStarz/Expression-Info.plist8674398144#493"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Expression-Info.plist -genpkginfo /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app/Info.plist0#
+
+CProcessPCH /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-ctcvglhtelzqtzfwnhhlhrqfosdh/Expression_Prefix.pch.gch Expression_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s318822447.319340
+e318822449.050549
+r1
+xProcessPCH
+x/var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-ctcvglhtelzqtzfwnhhlhrqfosdh/Expression_Prefix.pch.gch
+xExpression_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile Expression_Prefix.pch318822447#318822449#0(0"0(0#0#63"/Users/cylarez/Documents/Dev/iOS/XIIStarz/Expression_Prefix.pch8613428096#1861"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/Expression_Prefix.pch -o /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-ctcvglhtelzqtzfwnhhlhrqfosdh/Expression_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-ghqfdjmgekzcgpdoagjowaiisjge/Expression_Prefix.pch.gch Expression_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-hfzgmlgkbbwdxuepgtfauocraqkn/Expression_Prefix.pch.gch Expression_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s321163608.044332
+e321163611.520205
+r1
+xProcessPCH
+x/var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-hfzgmlgkbbwdxuepgtfauocraqkn/Expression_Prefix.pch.gch
+xExpression_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile Expression_Prefix.pch321163608#321163611#0(0"0(0#0#63"/Users/cylarez/Documents/Dev/iOS/XIIStarz/Expression_Prefix.pch8672028448#1909"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-generated-files.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-own-target-headers.hmap -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-all-target-headers.hmap -iquote /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/XIIStarz-project-headers.hmap -F/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/include -I/Users/cylarez/Documents/Dev/iOS/Facebook/src -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources/i386 -I/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/XIIStarz.build/Debug-iphonesimulator/XIIStarz.build/DerivedSources -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/Expression_Prefix.pch -o /var/folders/pc/pcsRV12vG4GS8gilHBqVok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Expression_Prefix-hfzgmlgkbbwdxuepgtfauocraqkn/Expression_Prefix.pch.gch0#
+
+CTouch /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app
+s321163613.348392
+e321163613.352627
+r1
+xTouch
+x/Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app
+lSLF07#2@88"Touch /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app321163613#321163613#0(0"0(0#0#0"8673197536#285"    cd /Users/cylarez/Documents/Dev/iOS/XIIStarz    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/cylarez/Documents/Dev/iOS/XIIStarz/build/Debug-iphonesimulator/XIIStarz.app0#
+
