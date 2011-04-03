@@ -27,7 +27,7 @@
     NSManagedObjectModel *managedObjectModel;
 	NSManagedObjectContext *managedObjectContext;	    
 	NSPersistentStoreCoordinator *persistentStoreCoordinator;
-    
+    LocationGetter *locationGetter;
     CLLocation *lastKnownLocation;
     
 }
@@ -44,6 +44,7 @@
 @property (nonatomic, retain, readonly) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 
 @property (nonatomic, retain) CLLocation *lastKnownLocation;
+@property (nonatomic, retain) LocationGetter *locationGetter;
 
 - (NSString *)applicationDocumentsDirectory;
 

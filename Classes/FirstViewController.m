@@ -22,6 +22,7 @@
 		NSArray* permissions =  [[NSArray arrayWithObjects:
 								  @"email", @"read_stream", nil] retain];
 		[facebook authorize:permissions delegate:self];
+        [permissions release];
 	}
 }
 

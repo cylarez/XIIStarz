@@ -11,7 +11,7 @@
 
 @implementation ExpressionAppDelegate
 
-@synthesize window, tabBarController, facebook, timer, splashImageView, projects, lastKnownLocation;
+@synthesize window, tabBarController, facebook, timer, splashImageView, projects, lastKnownLocation, locationGetter;
 
 
 #pragma mark -
@@ -34,10 +34,12 @@
 	timer = [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(getProjects) userInfo:nil repeats:NO];
 	
     // get our physical location
-    LocationGetter *locationGetter = [[LocationGetter alloc] init];
-    locationGetter.delegate = self;
-    [locationGetter startUpdates];
-
+    if (locationGetter == nil) {
+        locationGetter = [[LocationGetter alloc] init];
+        locationGetter.delegate = self;
+        [locationGetter startUpdates];
+    }
+    //[locationGetter release];
     return YES;
 }
 
@@ -233,14 +235,12 @@
     
     // Store for later use
     self.lastKnownLocation = location;
-
     
     // Alert user
-//    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Location Found" message:[NSString stringWithFormat:@"Found physical location.  %f %f", self.lastKnownLocation.coordinate.latitude, self.lastKnownLocation.coordinate.longitude] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
-//    [alert show];
-//    [alert release];
-    
-    // ... continue with initialization of your app
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Location Found" message:[NSString stringWithFormat:@"Found New Physical Location.  %f %f", self.lastKnownLocation.coordinate.latitude, self.lastKnownLocation.coordinate.longitude] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
+    [alert show];
+    [alert release];
+
 }
 
 
