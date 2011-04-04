@@ -8,8 +8,11 @@
 	<string>${PRODUCT_NAME}</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
-	<key>CFBundleIconFile</key>
-	<string>xii_logo.png</string>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string>xii_logo_57x57.png</string>
+		<string>xii_logo_114x114.png</string>
+	</array>
 	<key>CFBundleIdentifier</key>
 	<string>com.XXIIStarz.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>

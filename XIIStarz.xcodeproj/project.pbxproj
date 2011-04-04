@@ -19,12 +19,13 @@
 		720F27D7126CA2F300434121 /* DetailProjectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 720F27D5126CA2F300434121 /* DetailProjectViewController.xib */; };
 		721330DF126B908A00BFA275 /* ProjectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 721330DD126B908A00BFA275 /* ProjectsViewController.m */; };
 		721330E0126B908A00BFA275 /* ProjectsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 721330DE126B908A00BFA275 /* ProjectsViewController.xib */; };
+		721FC7D21349234F00356E20 /* xii_logo_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 721FC7D11349234F00356E20 /* xii_logo_57x57.png */; };
+		721FC7D41349235600356E20 /* xii_logo_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 721FC7D31349235600356E20 /* xii_logo_114x114.png */; };
 		72349DB812592A8D00DE6301 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72349DB612592A8D00DE6301 /* MapViewController.xib */; };
 		723E0B7D13236FF50069364B /* FBConnect.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 723E0B7C13236FF50069364B /* FBConnect.bundle */; };
 		723E0B80132370050069364B /* FBLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 723E0B7F132370050069364B /* FBLoginButton.m */; };
 		7271CBBD131C82E700DFBB51 /* creatively_advanced.png in Resources */ = {isa = PBXBuildFile; fileRef = 7271CBBC131C82E700DFBB51 /* creatively_advanced.png */; };
 		7271CBC8131C842000DFBB51 /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = 7271CBC7131C842000DFBB51 /* loading.png */; };
-		7271CBCE131C855800DFBB51 /* xii_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7271CBCD131C855800DFBB51 /* xii_logo.png */; };
 		7271CBD2131C85DF00DFBB51 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 7271CBD1131C85DF00DFBB51 /* background.png */; };
 		7271CBD4131C86C200DFBB51 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7271CBD3131C86C200DFBB51 /* logo.png */; };
 		7271CC79131CA52900DFBB51 /* 195-barcode.png in Resources */ = {isa = PBXBuildFile; fileRef = 7271CC78131CA52900DFBB51 /* 195-barcode.png */; };
@@ -97,13 +98,14 @@
 		721330DC126B908A00BFA275 /* ProjectsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectsViewController.h; sourceTree = "<group>"; };
 		721330DD126B908A00BFA275 /* ProjectsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectsViewController.m; sourceTree = "<group>"; };
 		721330DE126B908A00BFA275 /* ProjectsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ProjectsViewController.xib; path = Classes/ProjectsViewController.xib; sourceTree = "<group>"; };
+		721FC7D11349234F00356E20 /* xii_logo_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xii_logo_57x57.png; sourceTree = "<group>"; };
+		721FC7D31349235600356E20 /* xii_logo_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xii_logo_114x114.png; sourceTree = "<group>"; };
 		72349DB612592A8D00DE6301 /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MapViewController.xib; path = Classes/MapViewController.xib; sourceTree = "<group>"; };
 		723E0B7C13236FF50069364B /* FBConnect.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FBConnect.bundle; path = ../Facebook/sample/FBConnect.bundle; sourceTree = SOURCE_ROOT; };
 		723E0B7E132370050069364B /* FBLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBLoginButton.h; path = ../Facebook/sample/DemoApp/Classes/FBLoginButton.h; sourceTree = SOURCE_ROOT; };
 		723E0B7F132370050069364B /* FBLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBLoginButton.m; path = ../Facebook/sample/DemoApp/Classes/FBLoginButton.m; sourceTree = SOURCE_ROOT; };
 		7271CBBC131C82E700DFBB51 /* creatively_advanced.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = creatively_advanced.png; sourceTree = "<group>"; };
 		7271CBC7131C842000DFBB51 /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading.png; sourceTree = "<group>"; };
-		7271CBCD131C855800DFBB51 /* xii_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xii_logo.png; sourceTree = "<group>"; };
 		7271CBD1131C85DF00DFBB51 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		7271CBD3131C86C200DFBB51 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		7271CC78131CA52900DFBB51 /* 195-barcode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "195-barcode.png"; sourceTree = "<group>"; };
@@ -441,6 +443,8 @@
 		72F69F0C12FF4792004CE158 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				721FC7D31349235600356E20 /* xii_logo_114x114.png */,
+				721FC7D11349234F00356E20 /* xii_logo_57x57.png */,
 				727C93551347AA4700BC5FCB /* 44-shoebox.png */,
 				72BC046C125908D50064B930 /* 71-compass.png */,
 				72866581131F08B9006DD357 /* fb_share_up.png */,
@@ -451,7 +455,6 @@
 				7271CBD3131C86C200DFBB51 /* logo.png */,
 				7271CC78131CA52900DFBB51 /* 195-barcode.png */,
 				7271CBC7131C842000DFBB51 /* loading.png */,
-				7271CBCD131C855800DFBB51 /* xii_logo.png */,
 				72BC046A1259089D0064B930 /* 33-cabinet.png */,
 				7271CBBC131C82E700DFBB51 /* creatively_advanced.png */,
 				72BC04661259082A0064B930 /* 53-house.png */,
@@ -522,7 +525,6 @@
 				720F27D7126CA2F300434121 /* DetailProjectViewController.xib in Resources */,
 				7271CBBD131C82E700DFBB51 /* creatively_advanced.png in Resources */,
 				7271CBC8131C842000DFBB51 /* loading.png in Resources */,
-				7271CBCE131C855800DFBB51 /* xii_logo.png in Resources */,
 				7271CBD2131C85DF00DFBB51 /* background.png in Resources */,
 				7271CBD4131C86C200DFBB51 /* logo.png in Resources */,
 				7271CC79131CA52900DFBB51 /* 195-barcode.png in Resources */,
@@ -541,6 +543,8 @@
 				727C93561347AA4700BC5FCB /* 44-shoebox.png in Resources */,
 				729097891347D8D9001C6C4E /* HistoryViewController.xib in Resources */,
 				72DAB65413482E5C002583D6 /* DetailHistoryViewController.xib in Resources */,
+				721FC7D21349234F00356E20 /* xii_logo_57x57.png in Resources */,
+				721FC7D41349235600356E20 /* xii_logo_114x114.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
