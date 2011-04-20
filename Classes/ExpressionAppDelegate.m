@@ -11,7 +11,7 @@
 
 @implementation ExpressionAppDelegate
 
-@synthesize window, tabBarController, facebook, timer, splashImageView, projects, lastKnownLocation, locationGetter;
+@synthesize window, tabBarController, facebook, timer, splashImageView, projects, lastKnownLocation, locationGetter, theTabBar;
 
 
 #pragma mark -
@@ -247,18 +247,22 @@
 #pragma mark - Location Service
 
 - (void)newPhysicalLocation:(CLLocation *)location {
-    
     // Store for later use
     self.lastKnownLocation = location;
     NSLog(@"New Location!  %f %f", location.coordinate.latitude, location.coordinate.longitude);
-    
-    // Alert user
-//    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Location Found" message:[NSString stringWithFormat:@"Found New Physical Location.  %f %f", self.lastKnownLocation.coordinate.latitude, self.lastKnownLocation.coordinate.longitude] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
-//    [alert show];
-//    [alert release];
-
 }
 
+- (void) hideTheTabBarWithAnimation:(BOOL) hide {
+    
+        [UIView beginAnimations:nil context:nil];
+        [UIView setAnimationDelegate:nil];
+        [UIView setAnimationDuration:0.75];
+        
+    [theTabBar setAlpha:hide ? 0.0 : 1];       
+        
+        [UIView commitAnimations];
+    
+}
 
 #pragma mark -
 #pragma mark Application's Documents directory

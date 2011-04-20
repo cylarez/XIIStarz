@@ -30,10 +30,13 @@
     LocationGetter *locationGetter;
     CLLocation *lastKnownLocation;
     
+    IBOutlet UITabBar *theTabBar;
+    
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet UITabBarController *tabBarController;
+@property (nonatomic, retain) IBOutlet UITabBar *theTabBar;
 @property (nonatomic, retain) Facebook *facebook;
 
 @property(nonatomic, retain) NSTimer *timer;
@@ -57,6 +60,7 @@
 - (void) getProjects;
 - (void) fadeScreen;
 - (void) updateLocation;
+- (void) hideTheTabBarWithAnimation:(BOOL) withAnimation;
 
 @property (nonatomic, retain) NSArray *projects;
 

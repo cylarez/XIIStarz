@@ -24,6 +24,7 @@
 		72349DB812592A8D00DE6301 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72349DB612592A8D00DE6301 /* MapViewController.xib */; };
 		723E0B7D13236FF50069364B /* FBConnect.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 723E0B7C13236FF50069364B /* FBConnect.bundle */; };
 		723E0B80132370050069364B /* FBLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 723E0B7F132370050069364B /* FBLoginButton.m */; };
+		7267C9CA135B86E0009E7D61 /* firstview.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7267C9C9135B86E0009E7D61 /* firstview.jpg */; };
 		7271CBBD131C82E700DFBB51 /* creatively_advanced.png in Resources */ = {isa = PBXBuildFile; fileRef = 7271CBBC131C82E700DFBB51 /* creatively_advanced.png */; };
 		7271CBC8131C842000DFBB51 /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = 7271CBC7131C842000DFBB51 /* loading.png */; };
 		7271CBD2131C85DF00DFBB51 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 7271CBD1131C85DF00DFBB51 /* background.png */; };
@@ -104,6 +105,7 @@
 		723E0B7C13236FF50069364B /* FBConnect.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FBConnect.bundle; path = ../Facebook/sample/FBConnect.bundle; sourceTree = SOURCE_ROOT; };
 		723E0B7E132370050069364B /* FBLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBLoginButton.h; path = ../Facebook/sample/DemoApp/Classes/FBLoginButton.h; sourceTree = SOURCE_ROOT; };
 		723E0B7F132370050069364B /* FBLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBLoginButton.m; path = ../Facebook/sample/DemoApp/Classes/FBLoginButton.m; sourceTree = SOURCE_ROOT; };
+		7267C9C9135B86E0009E7D61 /* firstview.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = firstview.jpg; sourceTree = "<group>"; };
 		7271CBBC131C82E700DFBB51 /* creatively_advanced.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = creatively_advanced.png; sourceTree = "<group>"; };
 		7271CBC7131C842000DFBB51 /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading.png; sourceTree = "<group>"; };
 		7271CBD1131C85DF00DFBB51 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
@@ -226,10 +228,10 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				28216C950DB411BC00E5133A /* FirstViewController.h */,
-				28216C960DB411BC00E5133A /* FirstViewController.m */,
 				1D3623240D0F684500981E51 /* ExpressionAppDelegate.h */,
 				1D3623250D0F684500981E51 /* ExpressionAppDelegate.m */,
+				28216C950DB411BC00E5133A /* FirstViewController.h */,
+				28216C960DB411BC00E5133A /* FirstViewController.m */,
 				72DAB64713481EF1002583D6 /* LocationGetter.h */,
 				72DAB64813481EF1002583D6 /* LocationGetter.m */,
 				72BC04C81259247F0064B930 /* FindUsViewController.h */,
@@ -443,6 +445,7 @@
 		72F69F0C12FF4792004CE158 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				7267C9C9135B86E0009E7D61 /* firstview.jpg */,
 				721FC7D31349235600356E20 /* xii_logo_114x114.png */,
 				721FC7D11349234F00356E20 /* xii_logo_57x57.png */,
 				727C93551347AA4700BC5FCB /* 44-shoebox.png */,
@@ -545,6 +548,7 @@
 				72DAB65413482E5C002583D6 /* DetailHistoryViewController.xib in Resources */,
 				721FC7D21349234F00356E20 /* xii_logo_57x57.png in Resources */,
 				721FC7D41349235600356E20 /* xii_logo_114x114.png in Resources */,
+				7267C9CA135B86E0009E7D61 /* firstview.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

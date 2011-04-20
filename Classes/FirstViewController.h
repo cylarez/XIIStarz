@@ -34,7 +34,7 @@
 @property (nonatomic, retain) IBOutlet FBLoginButton *_fbButton;
 @property (nonatomic, retain) Facebook *facebook;
 
-- (IBAction)fbButtonClick:(id)sender;
+- (IBAction)fbButtonClick;
 
 - (void)fbDidLogin;
 

@@ -14,7 +14,7 @@
 
 @synthesize timer, splashImageView, username, avatar, _fbButton, facebook;
 
-- (IBAction)fbButtonClick:(id)sender
+- (IBAction)fbButtonClick
 {
 	if (_fbButton.isLoggedIn) {
 		[facebook logout:self];
@@ -53,6 +53,7 @@
 	avatar.hidden = NO;
 	username.hidden = NO;
 	[_fbButton updateImage];
+    [appDelegate hideTheTabBarWithAnimation:FALSE];
 }
 
 - (void)fbDidLogout
@@ -61,9 +62,10 @@
 	avatar.hidden = YES;
 	username.hidden = YES;
 	[_fbButton updateImage];
+    [appDelegate hideTheTabBarWithAnimation:TRUE];
 }
 
-/*
+
 - (void)viewDidAppear:(BOOL)animated
 {
 	NSLog(@"appear!");
@@ -72,11 +74,24 @@
 		[self fbDidLogin];
 	} else {	
 		[self fbDidLogout];
+        
+        UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:@"Login" message:@"Please connect to Facebook to use this application" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:nil] autorelease];
+        // optional - add more buttons:
+        [alert addButtonWithTitle:@"Yes"];
+        [alert show];
+        
 	}
 	[_fbButton updateImage];
     [super viewDidAppear:animated];	
 }
-*/
+
+- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
+    NSLog(@"button index %i", buttonIndex);
+    if (buttonIndex == 1) {
+        [self fbButtonClick];
+    }
+}
+
  
 /*
 // The designated initializer. Override to perform setup that is required before the view is loaded.
